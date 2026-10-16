@@ -80,6 +80,7 @@ HOT_QUALITY_POOL = 20      # candidatos (por me gusta) entre los que elegir
 PER_GROUP_CHECKS = 9       # a cuántos por grupo se comprueba la antigüedad
 RECENT_MAX_HOURS = 168     # "recién subido" hasta 7 días
 RECENT_RELAX_HOURS = 336   # si hay pocos, relajar a 14 días
+STALE_SECONDS = 10800      # 3 h: umbral para la "red de seguridad"
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126 Safari/537.36",
@@ -272,7 +273,15 @@ def load_previous_urls():
 # ------------------------------------------------------------------
 # PRINCIPAL
 # ------------------------------------------------------------------
-def main():
+def main(argv=None):
+    argv = argv or []
+    # Modo "red de seguridad": solo actualiza si los datos ya tienen más de 3 h
+    if "--only-if-stale" in argv and OUT.exists():
+        age = time.time() - OUT.stat().st_mtime
+        if age < STALE_SECONDS:
+            print(f"Datos recientes ({age / 3600:.1f} h). No hace falta actualizar.")
+            return 0
+
     prev = load_previous_urls()
 
     print("== Tendencias por búsqueda (recién subido) ==")
@@ -402,4 +411,4 @@ def main():
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    sys.exit(main(sys.argv[1:]))

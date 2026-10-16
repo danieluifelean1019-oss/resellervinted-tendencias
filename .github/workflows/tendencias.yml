@@ -2,8 +2,10 @@ name: Actualizar tendencias de Vinted
 
 on:
   schedule:
-    # Cada 3 horas (hora UTC). Se ejecuta en la nube, no necesita tu PC.
+    # Principal: cada 3 horas (hora UTC). Se ejecuta en la nube, no necesita tu PC.
     - cron: '0 */3 * * *'
+    # Red de seguridad: 45 min después, SOLO actualiza si la principal falló.
+    - cron: '45 */3 * * *'
   workflow_dispatch:      # botón para ejecutarlo a mano
 
 permissions:
@@ -27,7 +29,13 @@ jobs:
           python-version: '3.11'
 
       - name: Buscar tendencias en Vinted
-        run: python3 scripts/tendencias.py
+        run: |
+          if [ "${{ github.event.schedule }}" = "45 */3 * * *" ]; then
+            echo "🛟 Red de seguridad: solo actualizaré si los datos tienen más de 3 h"
+            python3 scripts/tendencias.py --only-if-stale
+          else
+            python3 scripts/tendencias.py
+          fi
 
       - name: Guardar y publicar los cambios
         run: |
