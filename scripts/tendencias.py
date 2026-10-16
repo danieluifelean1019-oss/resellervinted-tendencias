@@ -76,8 +76,8 @@ MAX_PER_TERM = 3           # artículos por término en "Tendencias por búsqued
 NEWEST_POOL = 24           # mirar solo los más nuevos
 GEN_QUALITY_POOL = 12      # de esos, elegir entre los 12 con más me gusta
 HOT_PER_GROUP = 6          # máximo de artículos por grupo en "Tendencia rápida"
-HOT_QUALITY_POOL = 14      # candidatos (por me gusta) entre los que elegir
-PER_GROUP_CHECKS = 7       # a cuántos por grupo se comprueba la antigüedad
+HOT_QUALITY_POOL = 20      # candidatos (por me gusta) entre los que elegir
+PER_GROUP_CHECKS = 9       # a cuántos por grupo se comprueba la antigüedad
 RECENT_MAX_HOURS = 168     # "recién subido" hasta 7 días
 RECENT_RELAX_HOURS = 336   # si hay pocos, relajar a 14 días
 
@@ -340,7 +340,7 @@ def main():
                 print(f"  ERR [{nombre}] {term}: {e}")
             time.sleep(1.0)
 
-        # De los 14 con más me gusta, comprobar la antigüedad de 7 al azar
+        # De los que más me gusta, comprobar la antigüedad de unos cuantos al azar
         quality = sorted(pool.values(), key=lambda x: x["likes"], reverse=True)[:HOT_QUALITY_POOL]
         random.shuffle(quality)
         candidates = quality[:PER_GROUP_CHECKS]
