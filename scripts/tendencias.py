@@ -58,7 +58,8 @@ DEFAULT_GROUPS = [
                  "jacket", "zapatilla", "sneaker", "camiseta", "t-shirt"]},
 ]
 
-MAX_PER_TERM = 2          # artículos por término en "Tendencias"
+MAX_PER_TERM = 3          # artículos por término en "Tendencias"
+NEWEST_POOL = 24          # de los más nuevos, elegir por me gusta
 HOT_PER_GROUP = 6         # máximo por grupo en "Tendencia rápida"
 PER_GROUP_CHECKS = 7      # a cuántos por grupo se comprueba la antigüedad
 RECENT_MAX_HOURS = 168    # "recién subido" hasta 7 días
@@ -214,12 +215,22 @@ def load_groups():
 
 
 def main():
-    print("== Tendencias generales ==")
-    general, used_terms = [], []
+    print("== Tendencias generales (por búsqueda, recién subido) ==")
+    general, used_terms, seen = [], [], set()
     for term in TERMS:
         try:
-            html = fetch("https://www.vinted.es/catalog?search_text=" + urllib.parse.quote(term), order="relevance")
-            res = parse_catalog(html, term)[:MAX_PER_TERM]
+            html = fetch("https://www.vinted.es/catalog?search_text=" + urllib.parse.quote(term),
+                         order="newest")
+            # De los más nuevos, quedarnos con los que más me gusta tienen
+            nuevos = parse_catalog(html, term)[:NEWEST_POOL]
+            res = []
+            for it in sorted(nuevos, key=lambda x: x["likes"], reverse=True):
+                if it["url"] in seen:
+                    continue
+                seen.add(it["url"])
+                res.append(it)
+                if len(res) >= MAX_PER_TERM:
+                    break
             if res:
                 general.extend(res)
                 used_terms.append(term)
@@ -306,7 +317,7 @@ def main():
         "grupos": [{"nombre": g.get("nombre"), "icono": g.get("icono", "fa-tag"),
                     "min_precio": g.get("min_precio", 0), "min_likes": g.get("min_likes", 0),
                     "pref_likes": g.get("pref_likes", 50)} for g in groups],
-        "items": general[:16],
+        "items": general[:21],
         "hot_grupos": hot_grupos,
         "hot": hot,
     }
