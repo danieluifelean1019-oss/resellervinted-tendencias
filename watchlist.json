@@ -15,12 +15,15 @@
         "jordan 4"
       ],
       "requerir": [
-        "zapatilla", "sneaker", "samba", "gel", "air force", "530",
-        "jordan", "dunk", "trainer", "shoes", "basket", "yeezy", "forum", "campus"
+        "zapatilla", "zapatillas", "deportiva", "deportivas", "sneaker", "sneakers",
+        "samba", "gel", "air force", "530", "jordan", "dunk", "trainer", "trainers",
+        "shoes", "basket", "yeezy", "forum", "campus", "gazelle"
       ],
       "excluir": [
-        "mochila", "bag", "gorra", "calcetin", "sock", "pantalon", "pants",
-        "short", "camiseta", "t-shirt", "chaqueta", "jacket", "sudadera", "hoodie"
+        "mochila", "mochilas", "bolso", "bolsos", "bolsa", "backpack", "gorra", "gorras",
+        "calcetin", "calcetines", "sock", "socks", "pantalon", "pantalones", "pants",
+        "shorts", "camiseta", "camisetas", "t-shirt", "t-shirts", "chaqueta", "chaquetas",
+        "jacket", "jackets", "sudadera", "sudaderas", "hoodie", "hoodies"
       ]
     },
     {
@@ -37,12 +40,15 @@
         "plumas"
       ],
       "requerir": [
-        "chaqueta", "jacket", "parka", "pluma", "puffer", "gilet", "nuptse",
-        "abrigo", "coat", "giubbotto", "doudoune", "windbreaker", "chaqueton", "down"
+        "chaqueta", "chaquetas", "jacket", "jackets", "parka", "parkas", "pluma", "plumas",
+        "puffer", "gilet", "nuptse", "abrigo", "abrigos", "coat", "coats", "giubbotto",
+        "doudoune", "windbreaker", "chaqueton", "down"
       ],
       "excluir": [
-        "mochila", "bag", "gorra", "calcetin", "sock", "pantalon", "pants",
-        "short", "sudadera", "hoodie", "zapatilla", "sneaker", "camiseta", "t-shirt"
+        "mochila", "mochilas", "bolso", "bolsos", "bolsa", "backpack", "gorra", "gorras",
+        "calcetin", "calcetines", "sock", "socks", "pantalon", "pantalones", "pants",
+        "shorts", "sudadera", "sudaderas", "hoodie", "hoodies", "zapatilla", "zapatillas",
+        "sneaker", "sneakers", "camiseta", "t-shirt"
       ]
     },
     {
@@ -57,12 +63,14 @@
         "nike tech fleece"
       ],
       "requerir": [
-        "sudadera", "hoodie", "hoody", "sweatshirt", "tech fleece",
-        "crewneck", "pullover", "sweater"
+        "sudadera", "sudaderas", "hoodie", "hoodies", "hoody", "sweatshirt", "sweatshirts",
+        "tech fleece", "crewneck", "pullover", "sweater", "sweaters"
       ],
       "excluir": [
-        "pantalon", "pants", "mochila", "bag", "gorra", "calcetin", "sock",
-        "short", "chaqueta", "jacket", "zapatilla", "sneaker", "camiseta", "t-shirt"
+        "pantalon", "pantalones", "pants", "jogging", "jogger", "joggers", "mochila", "mochilas", "bolso", "bolsos", "bolsa",
+        "backpack", "gorra", "gorras", "calcetin", "calcetines", "sock", "socks", "shorts",
+        "chaqueta", "chaquetas", "jacket", "jackets", "zapatilla", "zapatillas", "sneaker",
+        "sneakers", "camiseta", "t-shirt"
       ]
     }
   ]
