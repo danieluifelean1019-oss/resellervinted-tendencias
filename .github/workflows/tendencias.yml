@@ -1,0 +1,38 @@
+name: Actualizar tendencias de Vinted
+
+on:
+  schedule:
+    # Cada 3 horas (hora UTC). Se ejecuta en la nube, no necesita tu PC.
+    - cron: '0 */3 * * *'
+  workflow_dispatch:      # botón para ejecutarlo a mano
+
+permissions:
+  contents: write
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@v4
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Buscar tendencias en Vinted
+        run: python3 scripts/tendencias.py
+
+      - name: Guardar y publicar los cambios
+        run: |
+          git config user.name "resellervinted-bot"
+          git config user.email "actions@users.noreply.github.com"
+          if [ -n "$(git status --porcelain public/trends.json)" ]; then
+            git add public/trends.json
+            git commit -m "Tendencias $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git push
+            echo "✅ Tendencias actualizadas"
+          else
+            echo "Sin cambios que guardar"
+          fi
