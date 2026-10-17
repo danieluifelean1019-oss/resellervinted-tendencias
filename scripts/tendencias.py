@@ -44,7 +44,7 @@ TERMS = [
 
 # Grupos por defecto si no existe watchlist.json
 DEFAULT_GROUPS = [
-    {"nombre": "Zapatillas", "icono": "fa-shoe-prints", "min_precio": 55, "min_likes": 20, "pref_likes": 50,
+    {"nombre": "Zapatillas", "icono": "fa-shoe-prints", "min_precio": 75, "min_likes": 20, "pref_likes": 50,
      "terminos": ["asics gel", "asics gel kayano", "nike air force 1", "new balance 530", "adidas samba", "jordan 4"],
      "requerir": ["zapatilla", "zapatillas", "deportiva", "deportivas", "sneaker", "sneakers", "samba", "gel",
                   "air force", "530", "jordan", "dunk", "trainer", "trainers", "shoes", "basket", "yeezy",
@@ -53,7 +53,7 @@ DEFAULT_GROUPS = [
                  "calcetines", "sock", "socks", "pantalon", "pantalones", "pants", "shorts", "camiseta",
                  "camisetas", "t-shirt", "t-shirts", "chaqueta", "chaquetas", "jacket", "jackets", "sudadera",
                  "sudaderas", "hoodie", "hoodies"]},
-    {"nombre": "Chaquetas de invierno", "icono": "fa-vest", "min_precio": 45, "min_likes": 20, "pref_likes": 50,
+    {"nombre": "Chaquetas de invierno", "icono": "fa-vest", "min_precio": 75, "min_likes": 20, "pref_likes": 50,
      "terminos": ["the north face", "north face nuptse", "moncler", "patagonia", "plumas"],
      "requerir": ["chaqueta", "chaquetas", "jacket", "jackets", "parka", "parkas", "pluma", "plumas", "puffer",
                   "gilet", "nuptse", "abrigo", "abrigos", "coat", "coats", "giubbotto", "doudoune",
@@ -62,7 +62,7 @@ DEFAULT_GROUPS = [
                  "calcetines", "sock", "socks", "pantalon", "pantalones", "pants", "shorts", "sudadera",
                  "sudaderas", "hoodie", "hoodies", "zapatilla", "zapatillas", "sneaker", "sneakers", "camiseta",
                  "t-shirt"]},
-    {"nombre": "Sudaderas", "icono": "fa-shirt", "min_precio": 45, "min_likes": 20, "pref_likes": 50,
+    {"nombre": "Sudaderas", "icono": "fa-shirt", "min_precio": 75, "min_likes": 20, "pref_likes": 50,
      "terminos": ["sudadera", "hoodie", "nike tech fleece"],
      "requerir": ["sudadera", "sudaderas", "hoodie", "hoodies", "hoody", "sweatshirt", "sweatshirts",
                   "tech fleece", "crewneck", "pullover", "sweater", "sweaters"],

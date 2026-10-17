@@ -3,7 +3,7 @@
     {
       "nombre": "Zapatillas",
       "icono": "fa-shoe-prints",
-      "min_precio": 55,
+      "min_precio": 75,
       "min_likes": 20,
       "pref_likes": 50,
       "terminos": [
@@ -29,7 +29,7 @@
     {
       "nombre": "Chaquetas de invierno",
       "icono": "fa-vest",
-      "min_precio": 45,
+      "min_precio": 75,
       "min_likes": 20,
       "pref_likes": 50,
       "terminos": [
@@ -54,7 +54,7 @@
     {
       "nombre": "Sudaderas",
       "icono": "fa-shirt",
-      "min_precio": 45,
+      "min_precio": 75,
       "min_likes": 20,
       "pref_likes": 50,
       "terminos": [
