@@ -30,7 +30,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 OUT = BASE_DIR / "public" / "stock_analysis.json"
 
 PROJECT = "vintedresseller-b204c"
-API_KEY = "AIzaSyCGh9JyjfctpegAHON4UxXMqEnxTfHd7-Q"
+# Clave pública del cliente de Firebase (NO es una contraseña; va en la propia web).
+# Se pasa por variable de entorno para no dejarla escrita en el repositorio público.
+API_KEY = os.environ.get("FIREBASE_API_KEY", "")
 OWNER_EMAIL = os.environ.get("OWNER_EMAIL", "dankeluif@gmail.com")
 ROBOT_EMAIL = os.environ.get("ROBOT_EMAIL", "")
 ROBOT_PASS = os.environ.get("ROBOT_PASS", "")
@@ -313,8 +315,8 @@ def main():
     ap.add_argument("--limit", type=int, default=MAX_ANALIZAR, help="máximo de artículos a analizar")
     args = ap.parse_args()
 
-    if not ROBOT_EMAIL or not ROBOT_PASS:
-        print("Faltan ROBOT_EMAIL / ROBOT_PASS")
+    if not ROBOT_EMAIL or not ROBOT_PASS or not API_KEY:
+        print("Faltan ROBOT_EMAIL / ROBOT_PASS / FIREBASE_API_KEY")
         return 1
 
     print("Entrando como cuenta robot…")

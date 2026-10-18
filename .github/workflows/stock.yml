@@ -32,6 +32,7 @@ jobs:
           ROBOT_EMAIL: ${{ secrets.ROBOT_EMAIL }}
           ROBOT_PASS: ${{ secrets.ROBOT_PASS }}
           OWNER_EMAIL: ${{ secrets.OWNER_EMAIL }}
+          FIREBASE_API_KEY: ${{ secrets.FIREBASE_API_KEY }}
         run: python3 scripts/analizar_stock.py
 
       - name: Guardar y publicar los cambios
