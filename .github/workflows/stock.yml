@@ -44,13 +44,19 @@ jobs:
             exit 0
           fi
 
-          git add public/stock_analysis.json
-          git commit -m "Stock $(date -u '+%Y-%m-%d %H:%M UTC')"
-
-          # Traer lo que haya en la nube y reintentar el push si hiciera falta
+          # Guardamos el fichero recién generado y nos ponemos al día con la nube.
+          # Así subimos SOLO nuestro archivo y evitamos conflictos con otros robots.
+          cp public/stock_analysis.json /tmp/stock_generated.json
           for i in 1 2 3 4 5; do
-            git pull --rebase origin main || true
-            if git push; then
+            git fetch origin main
+            git reset --hard origin/main
+            cp /tmp/stock_generated.json public/stock_analysis.json
+            git add public/stock_analysis.json
+            if git diff --cached --quiet; then
+              echo "Sin cambios respecto a la nube"; exit 0
+            fi
+            git commit -m "Stock $(date -u '+%Y-%m-%d %H:%M UTC')"
+            if git push origin HEAD:main; then
               echo "✅ Análisis de stock actualizado"; exit 0
             fi
             echo "Reintento de push $i..."; sleep 5
