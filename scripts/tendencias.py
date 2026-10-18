@@ -113,7 +113,7 @@ def fetch(path, order=None, retries=2):
 
 def _find_array(html, key='"items":{"items":['):
     """Extrae y convierte la lista de artículos embebida en el HTML."""
-    h = html.replace('\\"', '"')
+    h = re.sub(r'\\(["\\/])', r'\1', html)
     s = h.find(key)
     if s < 0:
         return []

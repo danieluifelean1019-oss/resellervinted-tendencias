@@ -1,0 +1,58 @@
+name: Analizar mi stock
+
+on:
+  schedule:
+    # Cada 3 horas (UTC), 20 min después del robot de tendencias para no solaparse.
+    - cron: '20 */3 * * *'
+  workflow_dispatch:      # botón para ejecutarlo a mano
+
+permissions:
+  contents: write
+
+# Evita que dos ejecuciones del análisis de stock se solapen
+concurrency:
+  group: analisis-stock
+  cancel-in-progress: false
+
+jobs:
+  analizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@v4
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Analizar mi stock frente al mercado de Vinted
+        env:
+          ROBOT_EMAIL: ${{ secrets.ROBOT_EMAIL }}
+          ROBOT_PASS: ${{ secrets.ROBOT_PASS }}
+          OWNER_EMAIL: ${{ secrets.OWNER_EMAIL }}
+        run: python3 scripts/analizar_stock.py
+
+      - name: Guardar y publicar los cambios
+        run: |
+          git config user.name "resellervinted-bot"
+          git config user.email "actions@users.noreply.github.com"
+
+          if [ -z "$(git status --porcelain public/stock_analysis.json)" ]; then
+            echo "Sin cambios que guardar"
+            exit 0
+          fi
+
+          git add public/stock_analysis.json
+          git commit -m "Stock $(date -u '+%Y-%m-%d %H:%M UTC')"
+
+          # Traer lo que haya en la nube y reintentar el push si hiciera falta
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main || true
+            if git push; then
+              echo "✅ Análisis de stock actualizado"; exit 0
+            fi
+            echo "Reintento de push $i..."; sleep 5
+          done
+          echo "❌ No se pudo publicar"; exit 1
