@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-26T09:19:09+02:00",
+  "actualizado": "2026-10-26T12:07:25+02:00",
   "fuente": "Tu inventario (Firestore) + búsqueda pública de Vinted",
   "total_stock": 24,
   "analizados": 24,
@@ -12,13 +12,13 @@
       "mi_precio": 90.0,
       "coste": 25.0,
       "mercado": {
-        "anuncios": 43,
+        "anuncios": 40,
         "vistos": 96,
-        "min": 23.0,
-        "mediana": 80.0,
-        "max": 250.0,
+        "min": 20.0,
+        "mediana": 77.5,
+        "max": 160.0,
         "p25": 60.0,
-        "likes_mediana": 11,
+        "likes_mediana": 19.0,
         "likes_max": 154
       },
       "veredicto": "caro",
@@ -30,16 +30,16 @@
           "url": "https://www.vinted.es/items/10271599100-asics-gel-cumulus-16-sneakers-bordeauxroze"
         },
         {
-          "titulo": "ASICS SportStyle x Cecilie Bahnsen Gel-Cumulus 16 SSCB",
-          "precio": 220.0,
-          "likes": 141,
-          "url": "https://www.vinted.es/items/10146477237-asics-sportstyle-x-cecilie-bahnsen-gel-cumulus-16-sscb"
-        },
-        {
           "titulo": "Burgundi Asics Gel Cumulus 16",
           "precio": 95.0,
           "likes": 140,
           "url": "https://www.vinted.es/items/8465282562-burgundi-asics-gel-cumulus-16"
+        },
+        {
+          "titulo": "Asics Gel Nimbus 16 White Purple Lime / Taille 37,5",
+          "precio": 130.0,
+          "likes": 126,
+          "url": "https://www.vinted.es/items/9548840185-asics-gel-nimbus-16-white-purple-lime-taille-375"
         }
       ]
     },
@@ -54,31 +54,31 @@
         "anuncios": 96,
         "vistos": 96,
         "min": 1.0,
-        "mediana": 3.0,
-        "max": 89.0,
-        "p25": 1.75,
+        "mediana": 4.65,
+        "max": 50.0,
+        "p25": 2.0,
         "likes_mediana": 1.0,
-        "likes_max": 15
+        "likes_max": 18
       },
       "veredicto": "caro",
       "ejemplos": [
         {
-          "titulo": "Carta Cesc Fabregas Mundicromo 2012 Fcb",
-          "precio": 2.0,
-          "likes": 15,
-          "url": "https://www.vinted.es/items/8604145636-carta-cesc-fabregas-mundicromo-2012-fcb"
+          "titulo": "Cromo de Futbol \"metalcard\" brillante jugador Celso Borges d",
+          "precio": 3.0,
+          "likes": 18,
+          "url": "https://www.vinted.es/items/9430187177-cromo-de-futbol-metalcard-brillante-jugador-celso-borges-del-deportivo-de-la-coruna"
         },
         {
           "titulo": "10 sobres Versión Final Mundicromo La Liga 2014 2015 (Posibl",
           "precio": 11.99,
-          "likes": 13,
+          "likes": 14,
           "url": "https://www.vinted.es/items/10277414265-10-sobres-version-final-mundicromo-la-liga-2014-2015-posible-messi-o-cristiano"
         },
         {
-          "titulo": "Gavião do Corinthians",
-          "precio": 35.0,
+          "titulo": "Cromos fútbol femenino Liga F 25/26",
+          "precio": 6.0,
           "likes": 13,
-          "url": "https://www.vinted.es/items/9426079573-gaviao-do-corinthians"
+          "url": "https://www.vinted.es/items/8133761498-cromos-futbol-femenino-liga-f-2526"
         }
       ]
     },
@@ -92,19 +92,19 @@
       "mercado": {
         "anuncios": 96,
         "vistos": 96,
-        "min": 4.0,
+        "min": 3.0,
         "mediana": 30.0,
         "max": 130.0,
         "p25": 25.0,
-        "likes_mediana": 14.0,
-        "likes_max": 144
+        "likes_mediana": 11.5,
+        "likes_max": 145
       },
       "veredicto": "caro",
       "ejemplos": [
         {
           "titulo": "Pull Stussy",
           "precio": 50.0,
-          "likes": 144,
+          "likes": 145,
           "url": "https://www.vinted.es/items/10481945122-pull-stussy"
         },
         {
@@ -114,10 +114,10 @@
           "url": "https://www.vinted.es/items/10318308385-pull-stussy"
         },
         {
-          "titulo": "Pull noir",
-          "precio": 20.0,
-          "likes": 123,
-          "url": "https://www.vinted.es/items/10318882879-pull-noir"
+          "titulo": "maglione stüssy",
+          "precio": 60.0,
+          "likes": 71,
+          "url": "https://www.vinted.es/items/10473067214-maglione-stussy"
         }
       ]
     },
@@ -131,19 +131,19 @@
       "mercado": {
         "anuncios": 96,
         "vistos": 96,
-        "min": 4.0,
+        "min": 3.0,
         "mediana": 30.0,
         "max": 130.0,
         "p25": 25.0,
-        "likes_mediana": 14.0,
-        "likes_max": 144
+        "likes_mediana": 11.5,
+        "likes_max": 145
       },
       "veredicto": "caro",
       "ejemplos": [
         {
           "titulo": "Pull Stussy",
           "precio": 50.0,
-          "likes": 144,
+          "likes": 145,
           "url": "https://www.vinted.es/items/10481945122-pull-stussy"
         },
         {
@@ -153,127 +153,10 @@
           "url": "https://www.vinted.es/items/10318308385-pull-stussy"
         },
         {
-          "titulo": "Pull noir",
-          "precio": 20.0,
-          "likes": 123,
-          "url": "https://www.vinted.es/items/10318882879-pull-noir"
-        }
-      ]
-    },
-    {
-      "nombre": "Asics  Kayano 14 Negras",
-      "talla": "41,5",
-      "imagen": "data:image/jpeg;base64,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",
-      "unidades": 1,
-      "mi_precio": 80.0,
-      "coste": 0.0,
-      "mercado": {
-        "anuncios": 17,
-        "vistos": 96,
-        "min": 20.0,
-        "mediana": 50.0,
-        "max": 85.0,
-        "p25": 49.99,
-        "likes_mediana": 16,
-        "likes_max": 79
-      },
-      "veredicto": "caro",
-      "ejemplos": [
-        {
-          "titulo": "Asics kayano 14",
-          "precio": 49.99,
-          "likes": 79,
-          "url": "https://www.vinted.es/items/10486339371-asics-kayano-14"
-        },
-        {
-          "titulo": "Asics Gel-Kayano 14 Plata y Blanco Talla 42",
-          "precio": 79.99,
-          "likes": 75,
-          "url": "https://www.vinted.es/items/10363315931-asics-gel-kayano-14-plata-y-blanco-talla-42"
-        },
-        {
-          "titulo": "ASICS Gel negras con detalles morados y dorados",
-          "precio": 55.0,
-          "likes": 73,
-          "url": "https://www.vinted.es/items/10501250138-asics-gel-negras-con-detalles-morados-y-dorados"
-        }
-      ]
-    },
-    {
-      "nombre": "Asics  Kayano 14 Negras",
-      "talla": "42",
-      "imagen": "data:image/jpeg;base64,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",
-      "unidades": 1,
-      "mi_precio": 80.0,
-      "coste": 35.0,
-      "mercado": {
-        "anuncios": 17,
-        "vistos": 96,
-        "min": 20.0,
-        "mediana": 50.0,
-        "max": 85.0,
-        "p25": 49.99,
-        "likes_mediana": 16,
-        "likes_max": 79
-      },
-      "veredicto": "caro",
-      "ejemplos": [
-        {
-          "titulo": "Asics kayano 14",
-          "precio": 49.99,
-          "likes": 79,
-          "url": "https://www.vinted.es/items/10486339371-asics-kayano-14"
-        },
-        {
-          "titulo": "Asics Gel-Kayano 14 Plata y Blanco Talla 42",
-          "precio": 79.99,
-          "likes": 75,
-          "url": "https://www.vinted.es/items/10363315931-asics-gel-kayano-14-plata-y-blanco-talla-42"
-        },
-        {
-          "titulo": "ASICS Gel negras con detalles morados y dorados",
-          "precio": 55.0,
-          "likes": 73,
-          "url": "https://www.vinted.es/items/10501250138-asics-gel-negras-con-detalles-morados-y-dorados"
-        }
-      ]
-    },
-    {
-      "nombre": "Asics Gel Nyc Blue",
-      "talla": "41,5",
-      "imagen": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBAUEBAYFBQUGBgYHCQ4JCQgICRINDQoOFRIWFhUSFBQXGiEcFxgfGRQUHScdHyIjJSUlFhwpLCgkKyEkJST/2wBDAQYGBgkICREJCREkGBQYJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCT/wAARCAG9Ab0DASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD6pooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiig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VqvaJx/wD/69eyUUAeNnwZrA+6h/FM/1o/4Qi/kUpcW7SgnJXYQP85r2SigDw+7+GM08nmRWkkbHr8uR+VVj8MNVGsWOpfvx9lV1MSk7JNwOOOnfPftXvNFAHjx8J6yOlrJ/31/9am/8IjrZ/wCWMg+lex0UAeOHwlri9IZTVHS/Aniawhn857m+eSZpAXx8inGFHPQHpXuNFAHiTeC/Ecrbl09lb+8CoI/HNOn8C+NriHy7e/u7ZiV+cT5KqCM+vOMj8fava6KAPII/hlrF1KrajcyzIDyjyls+3J/pXY2+jajbxpFEoSNAFVVPGBXXUUAcwNP1Mev504WGp+h/OulooA5k6fqfofzpDYan6N+ddPRTuByb6bqjZxv/ADqtNoepyksd59txrtaKQHn7eFr1uDA5Huagbwlcg5+xnPrgV6PRQB5qfDFyP+XFvyFA8NXA62Tf9816VRQB53H4fnTOLDOf9gUHQ7nqLIqexCjivRKKAPOG0O/YHNvKf1qu3hq4bBNg2f8Adr0+igDy/wD4RmftYv8A9805PDl0hytm4PstenUUAebDR9STiO2cf8Aq7aw6/b48uOQKDnA6Gu8ooA5SO41/GDExx/eAqaO413d/qMfhXS0UAYsM+r4w8NXYZb048yFffmrtFACLnHIANLRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQB//2Q==",
-      "unidades": 1,
-      "mi_precio": 85.0,
-      "coste": 35.0,
-      "mercado": {
-        "anuncios": 53,
-        "vistos": 96,
-        "min": 18.0,
-        "mediana": 75.0,
-        "max": 420.0,
-        "p25": 50.0,
-        "likes_mediana": 11,
-        "likes_max": 96
-      },
-      "veredicto": "caro",
-      "ejemplos": [
-        {
-          "titulo": "Kiko Kostadinov x Asics UB3-S Gel Nimbus 9",
-          "precio": 75.0,
-          "likes": 96,
-          "url": "https://www.vinted.es/items/10521642203-kiko-kostadinov-x-asics-ub3-s-gel-nimbus-9"
-        },
-        {
-          "titulo": "Asics gel NYC",
-          "precio": 70.0,
-          "likes": 96,
-          "url": "https://www.vinted.es/items/9814954866-asics-gel-nyc"
-        },
-        {
-          "titulo": "Asics Gel-Kayano 14 Artic/Sky",
-          "precio": 90.2,
-          "likes": 67,
-          "url": "https://www.vinted.es/items/10459199342-asics-gel-kayano-14-articsky"
+          "titulo": "maglione stüssy",
+          "precio": 60.0,
+          "likes": 71,
+          "url": "https://www.vinted.es/items/10473067214-maglione-stussy"
         }
       ]
     },
@@ -285,34 +168,151 @@
       "mi_precio": 50.0,
       "coste": 18.5,
       "mercado": {
-        "anuncios": 84,
+        "anuncios": 80,
         "vistos": 96,
-        "min": 12.0,
-        "mediana": 45.0,
-        "max": 145.0,
-        "p25": 25.95,
-        "likes_mediana": 20.0,
-        "likes_max": 191
+        "min": 8.0,
+        "mediana": 35.0,
+        "max": 160.0,
+        "p25": 25.0,
+        "likes_mediana": 14.0,
+        "likes_max": 190
       },
-      "veredicto": "de mercado",
+      "veredicto": "caro",
       "ejemplos": [
         {
           "titulo": "Cortavientos The North Face",
           "precio": 59.99,
-          "likes": 191,
+          "likes": 190,
           "url": "https://www.vinted.es/items/10491245829-cortavientos-the-north-face"
         },
         {
           "titulo": "Forro Polar The North Face Original Premium Edition Retro 00",
           "precio": 29.95,
-          "likes": 139,
+          "likes": 145,
           "url": "https://www.vinted.es/items/10516997409-forro-polar-the-north-face-original-premium-edition-retro-00"
         },
         {
           "titulo": "Doudoune the north face XS",
           "precio": 68.0,
-          "likes": 98,
+          "likes": 99,
           "url": "https://www.vinted.es/items/10498098680-doudoune-the-north-face-xs"
+        }
+      ]
+    },
+    {
+      "nombre": "Asics  Kayano 14 Negras",
+      "talla": "41,5",
+      "imagen": "data:image/jpeg;base64,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",
+      "unidades": 1,
+      "mi_precio": 80.0,
+      "coste": 0.0,
+      "mercado": {
+        "anuncios": 17,
+        "vistos": 96,
+        "min": 20.0,
+        "mediana": 60.0,
+        "max": 85.0,
+        "p25": 49.99,
+        "likes_mediana": 8,
+        "likes_max": 82
+      },
+      "veredicto": "caro",
+      "ejemplos": [
+        {
+          "titulo": "ASICS Gel negras con detalles morados y dorados",
+          "precio": 55.0,
+          "likes": 82,
+          "url": "https://www.vinted.es/items/10501250138-asics-gel-negras-con-detalles-morados-y-dorados"
+        },
+        {
+          "titulo": "Asics Gel-Kayano 14 Plata y Blanco Talla 42",
+          "precio": 79.99,
+          "likes": 76,
+          "url": "https://www.vinted.es/items/10363315931-asics-gel-kayano-14-plata-y-blanco-talla-42"
+        },
+        {
+          "titulo": "Asics Gel Kayano 14 Negras",
+          "precio": 80.0,
+          "likes": 31,
+          "url": "https://www.vinted.es/items/10496719155-asics-gel-kayano-14-negras"
+        }
+      ]
+    },
+    {
+      "nombre": "Asics  Kayano 14 Negras",
+      "talla": "42",
+      "imagen": "data:image/jpeg;base64,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",
+      "unidades": 1,
+      "mi_precio": 80.0,
+      "coste": 35.0,
+      "mercado": {
+        "anuncios": 17,
+        "vistos": 96,
+        "min": 20.0,
+        "mediana": 60.0,
+        "max": 85.0,
+        "p25": 49.99,
+        "likes_mediana": 8,
+        "likes_max": 82
+      },
+      "veredicto": "caro",
+      "ejemplos": [
+        {
+          "titulo": "ASICS Gel negras con detalles morados y dorados",
+          "precio": 55.0,
+          "likes": 82,
+          "url": "https://www.vinted.es/items/10501250138-asics-gel-negras-con-detalles-morados-y-dorados"
+        },
+        {
+          "titulo": "Asics Gel-Kayano 14 Plata y Blanco Talla 42",
+          "precio": 79.99,
+          "likes": 76,
+          "url": "https://www.vinted.es/items/10363315931-asics-gel-kayano-14-plata-y-blanco-talla-42"
+        },
+        {
+          "titulo": "Asics Gel Kayano 14 Negras",
+          "precio": 80.0,
+          "likes": 31,
+          "url": "https://www.vinted.es/items/10496719155-asics-gel-kayano-14-negras"
+        }
+      ]
+    },
+    {
+      "nombre": "Asics Gel Nyc Blue",
+      "talla": "41,5",
+      "imagen": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBAUEBAYFBQUGBgYHCQ4JCQgICRINDQoOFRIWFhUSFBQXGiEcFxgfGRQUHScdHyIjJSUlFhwpLCgkKyEkJST/2wBDAQYGBgkICREJCREkGBQYJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCT/wAARCAG9Ab0DASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD6pooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiig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VqvaJx/wD/69eyUUAeNnwZrA+6h/FM/1o/4Qi/kUpcW7SgnJXYQP85r2SigDw+7+GM08nmRWkkbHr8uR+VVj8MNVGsWOpfvx9lV1MSk7JNwOOOnfPftXvNFAHjx8J6yOlrJ/31/9am/8IjrZ/wCWMg+lex0UAeOHwlri9IZTVHS/Aniawhn857m+eSZpAXx8inGFHPQHpXuNFAHiTeC/Ecrbl09lb+8CoI/HNOn8C+NriHy7e/u7ZiV+cT5KqCM+vOMj8fava6KAPII/hlrF1KrajcyzIDyjyls+3J/pXY2+jajbxpFEoSNAFVVPGBXXUUAcwNP1Mev504WGp+h/OulooA5k6fqfofzpDYan6N+ddPRTuByb6bqjZxv/ADqtNoepyksd59txrtaKQHn7eFr1uDA5Huagbwlcg5+xnPrgV6PRQB5qfDFyP+XFvyFA8NXA62Tf9816VRQB53H4fnTOLDOf9gUHQ7nqLIqexCjivRKKAPOG0O/YHNvKf1qu3hq4bBNg2f8Adr0+igDy/wD4RmftYv8A9805PDl0hytm4PstenUUAebDR9STiO2cf8Aq7aw6/b48uOQKDnA6Gu8ooA5SO41/GDExx/eAqaO413d/qMfhXS0UAYsM+r4w8NXYZb048yFffmrtFACLnHIANLRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQB//2Q==",
+      "unidades": 1,
+      "mi_precio": 85.0,
+      "coste": 35.0,
+      "mercado": {
+        "anuncios": 55,
+        "vistos": 96,
+        "min": 9.9,
+        "mediana": 75.0,
+        "max": 420.0,
+        "p25": 45.0,
+        "likes_mediana": 16,
+        "likes_max": 101
+      },
+      "veredicto": "caro",
+      "ejemplos": [
+        {
+          "titulo": "Kiko Kostadinov x Asics UB3-S Gel Nimbus 9",
+          "precio": 75.0,
+          "likes": 101,
+          "url": "https://www.vinted.es/items/10521642203-kiko-kostadinov-x-asics-ub3-s-gel-nimbus-9"
+        },
+        {
+          "titulo": "Asics gel NYC",
+          "precio": 70.0,
+          "likes": 96,
+          "url": "https://www.vinted.es/items/9814954866-asics-gel-nyc"
+        },
+        {
+          "titulo": "Asics gel cumulus 16 blue aqua",
+          "precio": 65.0,
+          "likes": 93,
+          "url": "https://www.vinted.es/items/10229683829-asics-gel-cumulus-16-blue-aqua"
         }
       ]
     },
@@ -324,34 +324,34 @@
       "mi_precio": 60.0,
       "coste": 0.0,
       "mercado": {
-        "anuncios": 89,
+        "anuncios": 88,
         "vistos": 96,
         "min": 34.95,
         "mediana": 115.0,
         "max": 220.0,
         "p25": 100.0,
-        "likes_mediana": 12,
-        "likes_max": 120
+        "likes_mediana": 12.0,
+        "likes_max": 121
       },
       "veredicto": "barato",
       "ejemplos": [
         {
           "titulo": "ASICS Gel-Kayano 14 - Maat 39.5",
           "precio": 115.0,
-          "likes": 120,
+          "likes": 121,
           "url": "https://www.vinted.es/items/10002764430-asics-gel-kayano-14-maat-395"
-        },
-        {
-          "titulo": "Asics  Gel-NYC \"Cream\" - Grigio",
-          "precio": 130.0,
-          "likes": 114,
-          "url": "https://www.vinted.es/items/7767025894-asics-gel-nyc-cream-grigio"
         },
         {
           "titulo": "Asics gel kinetic fluent",
           "precio": 115.0,
-          "likes": 113,
+          "likes": 114,
           "url": "https://www.vinted.es/items/9848990485-asics-gel-kinetic-fluent"
+        },
+        {
+          "titulo": "Asics  GEL-NYC neuves avec boîte taille 39",
+          "precio": 65.0,
+          "likes": 114,
+          "url": "https://www.vinted.es/items/9992989712-asics-gel-nyc-neuves-avec-boite-taille-39"
         }
       ]
     },
@@ -363,13 +363,13 @@
       "mi_precio": 80.0,
       "coste": 35.0,
       "mercado": {
-        "anuncios": 65,
+        "anuncios": 68,
         "vistos": 96,
         "min": 20.0,
         "mediana": 120.0,
         "max": 250.0,
-        "p25": 69.0,
-        "likes_mediana": 13,
+        "p25": 69.9,
+        "likes_mediana": 9.5,
         "likes_max": 371
       },
       "veredicto": "barato",
@@ -381,16 +381,16 @@
           "url": "https://www.vinted.es/items/7378983035-asics-x-cecilie-bahnsen-gel-terrain-mt"
         },
         {
-          "titulo": "Asics HS4-S Gel-Sonoma 15-50 gtx",
-          "precio": 65.0,
-          "likes": 211,
-          "url": "https://www.vinted.es/items/10470959405-asics-hs4-s-gel-sonoma-15-50-gtx"
-        },
-        {
           "titulo": "Gel-Terrain MT Asics x Cecile Bahnsen",
           "precio": 170.0,
           "likes": 146,
           "url": "https://www.vinted.es/items/9834371848-gel-terrain-mt-asics-x-cecile-bahnsen"
+        },
+        {
+          "titulo": "Asics Gel Nimbus 16",
+          "precio": 200.0,
+          "likes": 143,
+          "url": "https://www.vinted.es/items/9377357121-asics-gel-nimbus-16"
         }
       ]
     },
@@ -402,33 +402,33 @@
       "mi_precio": 55.0,
       "coste": 20.0,
       "mercado": {
-        "anuncios": 79,
+        "anuncios": 80,
         "vistos": 96,
-        "min": 10.0,
+        "min": 17.0,
         "mediana": 110.0,
         "max": 220.0,
         "p25": 90.0,
-        "likes_mediana": 20,
-        "likes_max": 199
+        "likes_mediana": 21.5,
+        "likes_max": 200
       },
       "veredicto": "barato",
       "ejemplos": [
         {
           "titulo": "Ugg tasman beige",
           "precio": 105.0,
-          "likes": 199,
+          "likes": 200,
           "url": "https://www.vinted.es/items/6871094796-ugg-tasman-beige"
         },
         {
           "titulo": "UGG Tasman",
           "precio": 50.0,
-          "likes": 186,
+          "likes": 188,
           "url": "https://www.vinted.es/items/10463432437-ugg-tasman"
         },
         {
           "titulo": "UGG Tasman Originali",
           "precio": 70.0,
-          "likes": 124,
+          "likes": 135,
           "url": "https://www.vinted.es/items/10505320923-ugg-tasman-originali"
         }
       ]
@@ -441,17 +441,23 @@
       "mi_precio": 50.0,
       "coste": 20.0,
       "mercado": {
-        "anuncios": 87,
+        "anuncios": 88,
         "vistos": 96,
         "min": 24.0,
-        "mediana": 115.0,
+        "mediana": 110.0,
         "max": 400.0,
-        "p25": 80.0,
-        "likes_mediana": 22,
-        "likes_max": 107
+        "p25": 65.0,
+        "likes_mediana": 24.0,
+        "likes_max": 225
       },
       "veredicto": "barato",
       "ejemplos": [
+        {
+          "titulo": "nike nocta blue yogging",
+          "precio": 49.0,
+          "likes": 225,
+          "url": "https://www.vinted.es/items/10503224723-nike-nocta-blue-yogging"
+        },
         {
           "titulo": "tech nocta",
           "precio": 65.0,
@@ -459,15 +465,9 @@
           "url": "https://www.vinted.es/items/10471720711-tech-nocta"
         },
         {
-          "titulo": "Ensemble Nike x nocta",
-          "precio": 130.0,
-          "likes": 104,
-          "url": "https://www.vinted.es/items/9200640951-ensemble-nike-x-nocta"
-        },
-        {
           "titulo": "Nike tech Nocta",
           "precio": 110.0,
-          "likes": 99,
+          "likes": 102,
           "url": "https://www.vinted.es/items/7484578482-nike-tech-nocta"
         }
       ]
@@ -480,17 +480,23 @@
       "mi_precio": 50.0,
       "coste": 20.0,
       "mercado": {
-        "anuncios": 87,
+        "anuncios": 88,
         "vistos": 96,
         "min": 24.0,
-        "mediana": 115.0,
+        "mediana": 110.0,
         "max": 400.0,
-        "p25": 80.0,
-        "likes_mediana": 22,
-        "likes_max": 107
+        "p25": 65.0,
+        "likes_mediana": 24.0,
+        "likes_max": 225
       },
       "veredicto": "barato",
       "ejemplos": [
+        {
+          "titulo": "nike nocta blue yogging",
+          "precio": 49.0,
+          "likes": 225,
+          "url": "https://www.vinted.es/items/10503224723-nike-nocta-blue-yogging"
+        },
         {
           "titulo": "tech nocta",
           "precio": 65.0,
@@ -498,15 +504,9 @@
           "url": "https://www.vinted.es/items/10471720711-tech-nocta"
         },
         {
-          "titulo": "Ensemble Nike x nocta",
-          "precio": 130.0,
-          "likes": 104,
-          "url": "https://www.vinted.es/items/9200640951-ensemble-nike-x-nocta"
-        },
-        {
           "titulo": "Nike tech Nocta",
           "precio": 110.0,
-          "likes": 99,
+          "likes": 102,
           "url": "https://www.vinted.es/items/7484578482-nike-tech-nocta"
         }
       ]
@@ -597,13 +597,13 @@
       "mi_precio": 25.0,
       "coste": 30.0,
       "mercado": {
-        "anuncios": 8,
+        "anuncios": 7,
         "vistos": 96,
-        "min": 10.0,
-        "mediana": 30.0,
-        "max": 80.0,
+        "min": 16.0,
+        "mediana": 35.0,
+        "max": 170.0,
         "p25": 20.0,
-        "likes_mediana": 9.0,
+        "likes_mediana": 12,
         "likes_max": 24
       },
       "veredicto": "barato",
@@ -615,16 +615,16 @@
           "url": "https://www.vinted.es/items/10362534210-nike-tn-negras"
         },
         {
-          "titulo": "Zapatillas Nike TN Terrascape Negras",
-          "precio": 80.0,
-          "likes": 20,
-          "url": "https://www.vinted.es/items/10514291867-zapatillas-nike-tn-terrascape-negras"
+          "titulo": "Nike TN negras",
+          "precio": 69.99,
+          "likes": 12,
+          "url": "https://www.vinted.es/items/10525122817-nike-tn-negras"
         },
         {
-          "titulo": "Nike TN negras",
-          "precio": 40.0,
+          "titulo": "Nike Air Max Plus TN Tiempo Negras",
+          "precio": 170.0,
           "likes": 12,
-          "url": "https://www.vinted.es/items/10447113888-nike-tn-negras"
+          "url": "https://www.vinted.es/items/10372239755-nike-air-max-plus-tn-tiempo-negras"
         }
       ]
     },
@@ -636,33 +636,33 @@
       "mi_precio": 20.0,
       "coste": 10.0,
       "mercado": {
-        "anuncios": 46,
+        "anuncios": 43,
         "vistos": 96,
-        "min": 10.0,
+        "min": 22.0,
         "mediana": 110.0,
         "max": 205.0,
-        "p25": 48.0,
-        "likes_mediana": 13.5,
-        "likes_max": 357
+        "p25": 50.0,
+        "likes_mediana": 17,
+        "likes_max": 358
       },
       "veredicto": "barato",
       "ejemplos": [
         {
           "titulo": "Abrigo Alo Yoga",
           "precio": 125.0,
-          "likes": 357,
+          "likes": 358,
           "url": "https://www.vinted.es/items/7459876242-abrigo-alo-yoga"
         },
         {
           "titulo": "Robe de Tennis / Sport Alo Yoga - Maille Côtelée Noir & Blan",
           "precio": 80.0,
-          "likes": 226,
+          "likes": 228,
           "url": "https://www.vinted.es/items/10298546822-robe-de-tennis-sport-alo-yoga-maille-cotelee-noir-blanc"
         },
         {
           "titulo": "Veste courte en maille Scholar à fermeture zippée intégrale ",
           "precio": 183.0,
-          "likes": 171,
+          "likes": 172,
           "url": "https://www.vinted.es/items/8216662790-veste-courte-en-maille-scholar-a-fermeture-zippee-integrale-blanc-casse-taille-m-alo-yoga"
         }
       ]
@@ -675,34 +675,34 @@
       "mi_precio": 20.0,
       "coste": 0.0,
       "mercado": {
-        "anuncios": 46,
+        "anuncios": 45,
         "vistos": 96,
-        "min": 23.0,
-        "mediana": 117.0,
-        "max": 230.0,
-        "p25": 80.0,
-        "likes_mediana": 29.5,
-        "likes_max": 160
+        "min": 18.0,
+        "mediana": 115.0,
+        "max": 225.0,
+        "p25": 70.0,
+        "likes_mediana": 28,
+        "likes_max": 164
       },
       "veredicto": "barato",
       "ejemplos": [
         {
-          "titulo": "Basket Alo Yoga taille 36",
-          "precio": 205.0,
-          "likes": 160,
-          "url": "https://www.vinted.es/items/9997801659-basket-alo-yoga-taille-36"
-        },
-        {
           "titulo": "Alo Yoga \"Contour\" mixed-media",
           "precio": 90.0,
-          "likes": 157,
+          "likes": 164,
           "url": "https://www.vinted.es/items/10447792717-alo-yoga-contour-mixed-media"
         },
         {
-          "titulo": "Accolade Pullover - Alo Yoga - Talla XS",
-          "precio": 110.0,
-          "likes": 139,
-          "url": "https://www.vinted.es/items/10082781228-accolade-pullover-alo-yoga-talla-xs"
+          "titulo": "Basket Alo Yoga taille 36",
+          "precio": 205.0,
+          "likes": 161,
+          "url": "https://www.vinted.es/items/9997801659-basket-alo-yoga-taille-36"
+        },
+        {
+          "titulo": "Alo Yoga Splendor Bra black thin cross strap sports bra",
+          "precio": 28.0,
+          "likes": 140,
+          "url": "https://www.vinted.es/items/10530691051-alo-yoga-splendor-bra-black-thin-cross-strap-sports-bra"
         }
       ]
     },
@@ -714,34 +714,34 @@
       "mi_precio": 50.0,
       "coste": 18.33,
       "mercado": {
-        "anuncios": 90,
+        "anuncios": 88,
         "vistos": 96,
-        "min": 29.0,
-        "mediana": 125.0,
+        "min": 15.0,
+        "mediana": 120.0,
         "max": 629.0,
-        "p25": 87.0,
-        "likes_mediana": 13.0,
-        "likes_max": 189
+        "p25": 80.0,
+        "likes_mediana": 12.0,
+        "likes_max": 190
       },
       "veredicto": "barato",
       "ejemplos": [
         {
           "titulo": "North face jasje",
           "precio": 35.0,
-          "likes": 189,
+          "likes": 190,
           "url": "https://www.vinted.es/items/10172169756-north-face-jasje"
         },
         {
-          "titulo": "North Face Nuptse Sherpa Jacket, Gardenia white.",
-          "precio": 180.0,
-          "likes": 101,
-          "url": "https://www.vinted.es/items/7784899624-north-face-nuptse-sherpa-jacket-gardenia-white"
+          "titulo": "Anorak north face",
+          "precio": 80.0,
+          "likes": 77,
+          "url": "https://www.vinted.es/items/9894318802-anorak-north-face"
         },
         {
-          "titulo": "Cazadora acolchada original The North Face",
-          "precio": 35.0,
-          "likes": 85,
-          "url": "https://www.vinted.es/items/10536252958-cazadora-acolchada-original-the-north-face"
+          "titulo": "Chaqueta north face",
+          "precio": 50.0,
+          "likes": 70,
+          "url": "https://www.vinted.es/items/10473899316-chaqueta-north-face"
         }
       ]
     },
@@ -753,27 +753,27 @@
       "mi_precio": 25.0,
       "coste": 0.0,
       "mercado": {
-        "anuncios": 83,
+        "anuncios": 87,
         "vistos": 96,
         "min": 20.0,
         "mediana": 120.0,
         "max": 220.0,
-        "p25": 60.0,
-        "likes_mediana": 5,
-        "likes_max": 191
+        "p25": 59.99,
+        "likes_mediana": 6,
+        "likes_max": 190
       },
       "veredicto": "barato",
       "ejemplos": [
         {
           "titulo": "Cortavientos The North Face",
           "precio": 59.99,
-          "likes": 191,
+          "likes": 190,
           "url": "https://www.vinted.es/items/10491245829-cortavientos-the-north-face"
         },
         {
           "titulo": "Veste courte The North Face Nuptse 700 noire",
           "precio": 115.0,
-          "likes": 116,
+          "likes": 115,
           "url": "https://www.vinted.es/items/5517770301-veste-courte-the-north-face-nuptse-700-noire"
         },
         {
@@ -792,13 +792,13 @@
       "mi_precio": 30.0,
       "coste": 16.0,
       "mercado": {
-        "anuncios": 68,
+        "anuncios": 66,
         "vistos": 96,
         "min": 43.0,
-        "mediana": 112.5,
+        "mediana": 115.0,
         "max": 220.0,
         "p25": 65.0,
-        "likes_mediana": 30.5,
+        "likes_mediana": 29.5,
         "likes_max": 152
       },
       "veredicto": "barato",
@@ -816,10 +816,10 @@
           "url": "https://www.vinted.es/items/9255108925-zapatillas-adidas-samba-brillantes"
         },
         {
-          "titulo": "Adidas samba rhinestone 38",
-          "precio": 109.9,
-          "likes": 100,
-          "url": "https://www.vinted.es/items/9785309539-adidas-samba-rhinestone-38"
+          "titulo": "Adidas Samba OG Metallic",
+          "precio": 80.0,
+          "likes": 115,
+          "url": "https://www.vinted.es/items/10316058693-adidas-samba-og-metallic"
         }
       ]
     },
@@ -831,13 +831,13 @@
       "mi_precio": 30.0,
       "coste": 16.0,
       "mercado": {
-        "anuncios": 68,
+        "anuncios": 66,
         "vistos": 96,
         "min": 43.0,
-        "mediana": 112.5,
+        "mediana": 115.0,
         "max": 220.0,
         "p25": 65.0,
-        "likes_mediana": 30.5,
+        "likes_mediana": 29.5,
         "likes_max": 152
       },
       "veredicto": "barato",
@@ -855,10 +855,10 @@
           "url": "https://www.vinted.es/items/9255108925-zapatillas-adidas-samba-brillantes"
         },
         {
-          "titulo": "Adidas samba rhinestone 38",
-          "precio": 109.9,
-          "likes": 100,
-          "url": "https://www.vinted.es/items/9785309539-adidas-samba-rhinestone-38"
+          "titulo": "Adidas Samba OG Metallic",
+          "precio": 80.0,
+          "likes": 115,
+          "url": "https://www.vinted.es/items/10316058693-adidas-samba-og-metallic"
         }
       ]
     },
@@ -905,40 +905,49 @@
   ],
   "top_compras": [
     {
-      "nombre": "Asics  Kayano 14 Negras",
-      "score": 6.3,
-      "demanda": 16,
-      "competencia": 17,
-      "precio_venta_sugerido": 50.0,
-      "precio_compra_max": 27.5,
-      "motivo": "16 ❤ de media · 17 anuncios parecidos"
-    },
-    {
       "nombre": "TN Negras",
-      "score": 5.56,
-      "demanda": 9.0,
-      "competencia": 8,
-      "precio_venta_sugerido": 30.0,
-      "precio_compra_max": 16.5,
-      "motivo": "9 ❤ de media · 8 anuncios parecidos"
+      "score": 7.65,
+      "demanda": 12,
+      "competencia": 7,
+      "precio_venta_sugerido": 35.0,
+      "precio_compra_max": 19.25,
+      "motivo": "12 ❤ de media · 7 anuncios parecidos"
     },
     {
       "nombre": "Alo Yoga Negra",
-      "score": 5.45,
-      "demanda": 29.5,
-      "competencia": 46,
-      "precio_venta_sugerido": 117.0,
-      "precio_compra_max": 64.35,
-      "motivo": "29 ❤ de media · 46 anuncios parecidos"
+      "score": 5.27,
+      "demanda": 28,
+      "competencia": 45,
+      "precio_venta_sugerido": 115.0,
+      "precio_compra_max": 63.25,
+      "motivo": "28 ❤ de media · 45 anuncios parecidos"
     },
     {
       "nombre": "Adidas Samba Plateadas",
-      "score": 4.04,
-      "demanda": 30.5,
-      "competencia": 68,
-      "precio_venta_sugerido": 112.5,
-      "precio_compra_max": 61.88,
-      "motivo": "30 ❤ de media · 68 anuncios parecidos"
+      "score": 4.01,
+      "demanda": 29.5,
+      "competencia": 66,
+      "precio_venta_sugerido": 115.0,
+      "precio_compra_max": 63.25,
+      "motivo": "29 ❤ de media · 66 anuncios parecidos"
+    },
+    {
+      "nombre": "Asics Gel Cumulus 16’ Burgundy",
+      "score": 4.0,
+      "demanda": 19.0,
+      "competencia": 40,
+      "precio_venta_sugerido": 77.5,
+      "precio_compra_max": 42.62,
+      "motivo": "19 ❤ de media · 40 anuncios parecidos"
+    },
+    {
+      "nombre": "Alo Yoga Blanca",
+      "score": 3.4,
+      "demanda": 17,
+      "competencia": 43,
+      "precio_venta_sugerido": 110.0,
+      "precio_compra_max": 60.5,
+      "motivo": "17 ❤ de media · 43 anuncios parecidos"
     },
     {
       "nombre": "Cinturon Mont Blanc 120cm",
@@ -950,31 +959,22 @@
       "motivo": "4 ❤ de media · 5 anuncios parecidos"
     },
     {
-      "nombre": "Alo Yoga Blanca",
-      "score": 2.59,
-      "demanda": 13.5,
-      "competencia": 46,
-      "precio_venta_sugerido": 110.0,
-      "precio_compra_max": 60.5,
-      "motivo": "13 ❤ de media · 46 anuncios parecidos"
+      "nombre": "Asics  Kayano 14 Negras",
+      "score": 3.33,
+      "demanda": 8,
+      "competencia": 17,
+      "precio_venta_sugerido": 60.0,
+      "precio_compra_max": 33.0,
+      "motivo": "8 ❤ de media · 17 anuncios parecidos"
     },
     {
-      "nombre": "Nike Tech Nocta",
-      "score": 2.37,
-      "demanda": 22,
-      "competencia": 87,
-      "precio_venta_sugerido": 115.0,
-      "precio_compra_max": 63.25,
-      "motivo": "22 ❤ de media · 87 anuncios parecidos"
-    },
-    {
-      "nombre": "UGG Tasman Beige",
-      "score": 2.36,
-      "demanda": 20,
-      "competencia": 79,
-      "precio_venta_sugerido": 110.0,
-      "precio_compra_max": 60.5,
-      "motivo": "20 ❤ de media · 79 anuncios parecidos"
+      "nombre": "Asics Gel Nyc Blue",
+      "score": 2.62,
+      "demanda": 16,
+      "competencia": 55,
+      "precio_venta_sugerido": 75.0,
+      "precio_compra_max": 41.25,
+      "motivo": "16 ❤ de media · 55 anuncios parecidos"
     }
   ]
 }
