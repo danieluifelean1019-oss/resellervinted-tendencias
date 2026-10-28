@@ -1,9 +1,48 @@
 {
-  "actualizado": "2026-10-28T21:16:06+02:00",
+  "actualizado": "2026-10-29T00:00:41+02:00",
   "fuente": "Tu inventario (Firestore) + búsqueda pública de Vinted",
   "total_stock": 24,
   "analizados": 24,
   "articulos": [
+    {
+      "nombre": "Asics Gel Cumulus 16’ Burgundy",
+      "talla": "38",
+      "imagen": "https://images1.vinted.net/t/02_01986_LgLJEmbDi13A4NNaGHNsRpGM/f800/1af91990.webp?s=99b8f9b0c242c573d46df5ad6794e91f1af80d49",
+      "unidades": 1,
+      "mi_precio": 90.0,
+      "coste": 25.0,
+      "mercado": {
+        "anuncios": 87,
+        "vistos": 96,
+        "min": 19.95,
+        "mediana": 60.0,
+        "max": 250.0,
+        "p25": 50.0,
+        "likes_mediana": 10,
+        "likes_max": 152
+      },
+      "veredicto": "caro",
+      "ejemplos": [
+        {
+          "titulo": "Asics Gel-Kayano",
+          "precio": 120.0,
+          "likes": 152,
+          "url": "https://www.vinted.es/items/10305160156-asics-gel-kayano"
+        },
+        {
+          "titulo": "asics gel kayano rose taille36",
+          "precio": 30.0,
+          "likes": 116,
+          "url": "https://www.vinted.es/items/10572645129-asics-gel-kayano-rose-taille36"
+        },
+        {
+          "titulo": "Asics cumulus 16 taille 38 bleu",
+          "precio": 57.0,
+          "likes": 104,
+          "url": "https://www.vinted.es/items/10563572393-asics-cumulus-16-taille-38-bleu"
+        }
+      ]
+    },
     {
       "nombre": "Asics Gel Nyc Silver Gray",
       "talla": "42",
@@ -12,17 +51,23 @@
       "mi_precio": 80.0,
       "coste": 35.0,
       "mercado": {
-        "anuncios": 66,
+        "anuncios": 68,
         "vistos": 96,
         "min": 9.0,
         "mediana": 70.0,
-        "max": 230.0,
-        "p25": 35.0,
-        "likes_mediana": 6.5,
-        "likes_max": 108
+        "max": 300.0,
+        "p25": 40.0,
+        "likes_mediana": 7.0,
+        "likes_max": 205
       },
       "veredicto": "caro",
       "ejemplos": [
+        {
+          "titulo": "Asics FB1-S gel-preleus by Kiko Kostadinov ",
+          "precio": 120.0,
+          "likes": 205,
+          "url": "https://www.vinted.es/items/2397557559-asics-fb1-s-gel-preleus-by-kiko-kostadinov"
+        },
         {
           "titulo": "Kiko Kostadinov x Asics Novalis Gel-Styrax Graphite Grey and",
           "precio": 125.0,
@@ -34,12 +79,45 @@
           "precio": 220.0,
           "likes": 84,
           "url": "https://www.vinted.es/items/9264942083-cecilie-bahnsen-x-asics-gel-cumulus"
+        }
+      ]
+    },
+    {
+      "nombre": "Nike Tech Nocta",
+      "talla": "M",
+      "imagen": "data:image/jpeg;base64,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",
+      "unidades": 1,
+      "mi_precio": 50.0,
+      "coste": 20.0,
+      "mercado": {
+        "anuncios": 89,
+        "vistos": 96,
+        "min": 5.0,
+        "mediana": 25.0,
+        "max": 89.99,
+        "p25": 15.0,
+        "likes_mediana": 11,
+        "likes_max": 90
+      },
+      "veredicto": "caro",
+      "ejemplos": [
+        {
+          "titulo": "Bas Nike tech gris",
+          "precio": 55.0,
+          "likes": 90,
+          "url": "https://www.vinted.es/items/10498590134-bas-nike-tech-gris"
         },
         {
-          "titulo": "Asics modelo gel",
-          "precio": 28.0,
-          "likes": 46,
-          "url": "https://www.vinted.es/items/7346700633-asics-modelo-gel"
+          "titulo": "Survêtement Nike tech kangourou noir",
+          "precio": 83.0,
+          "likes": 69,
+          "url": "https://www.vinted.es/items/10352622703-survetement-nike-tech-kangourou-noir"
+        },
+        {
+          "titulo": "Nike Tech Fleece Full Zip Tracksuit Black Full Set Size XS H",
+          "precio": 30.0,
+          "likes": 67,
+          "url": "https://www.vinted.es/items/10567849644-nike-tech-fleece-full-zip-tracksuit-black-full-set-size-xs-hoodie-joggers-unisex"
         }
       ]
     },
@@ -51,12 +129,12 @@
       "mi_precio": 10.0,
       "coste": 2.5,
       "mercado": {
-        "anuncios": 72,
+        "anuncios": 74,
         "vistos": 96,
         "min": 1.0,
         "mediana": 3.0,
         "max": 100.0,
-        "p25": 1.99,
+        "p25": 1.5,
         "likes_mediana": 1.0,
         "likes_max": 42
       },
@@ -69,16 +147,16 @@
           "url": "https://www.vinted.es/items/10498153766-tarjetas-nfc-google-con-soporte"
         },
         {
-          "titulo": "tarjetas nfc",
-          "precio": 3.0,
-          "likes": 14,
-          "url": "https://www.vinted.es/items/10393936428-tarjetas-nfc"
-        },
-        {
-          "titulo": "Tarjetas nfc para negocios",
+          "titulo": "Tarjetas nfc Google Review",
           "precio": 1.0,
           "likes": 11,
-          "url": "https://www.vinted.es/items/10475541492-tarjetas-nfc-para-negocios"
+          "url": "https://www.vinted.es/items/10566070384-tarjetas-nfc-google-review"
+        },
+        {
+          "titulo": "Tarjetas NFC para Reviews en Google",
+          "precio": 4.0,
+          "likes": 11,
+          "url": "https://www.vinted.es/items/10482774650-tarjetas-nfc-para-reviews-en-google"
         }
       ]
     },
@@ -95,16 +173,16 @@
         "min": 12.0,
         "mediana": 35.0,
         "max": 130.0,
-        "p25": 26.6,
+        "p25": 28.0,
         "likes_mediana": 11.5,
-        "likes_max": 221
+        "likes_max": 224
       },
       "veredicto": "caro",
       "ejemplos": [
         {
           "titulo": "Stussy stock sweater “Black”",
           "precio": 45.0,
-          "likes": 221,
+          "likes": 224,
           "url": "https://www.vinted.es/items/7688445688-stussy-stock-sweater-black"
         },
         {
@@ -116,7 +194,7 @@
         {
           "titulo": "Pull stüssy",
           "precio": 25.0,
-          "likes": 128,
+          "likes": 129,
           "url": "https://www.vinted.es/items/10318308385-pull-stussy"
         }
       ]
@@ -134,16 +212,16 @@
         "min": 12.0,
         "mediana": 35.0,
         "max": 130.0,
-        "p25": 26.6,
+        "p25": 28.0,
         "likes_mediana": 11.5,
-        "likes_max": 221
+        "likes_max": 224
       },
       "veredicto": "caro",
       "ejemplos": [
         {
           "titulo": "Stussy stock sweater “Black”",
           "precio": 45.0,
-          "likes": 221,
+          "likes": 224,
           "url": "https://www.vinted.es/items/7688445688-stussy-stock-sweater-black"
         },
         {
@@ -155,7 +233,7 @@
         {
           "titulo": "Pull stüssy",
           "precio": 25.0,
-          "likes": 128,
+          "likes": 129,
           "url": "https://www.vinted.es/items/10318308385-pull-stussy"
         }
       ]
@@ -168,34 +246,34 @@
       "mi_precio": 50.0,
       "coste": 18.5,
       "mercado": {
-        "anuncios": 79,
+        "anuncios": 70,
         "vistos": 96,
-        "min": 1.0,
-        "mediana": 34.9,
-        "max": 135.0,
-        "p25": 26.99,
-        "likes_mediana": 3,
-        "likes_max": 61
+        "min": 7.0,
+        "mediana": 33.75,
+        "max": 100.0,
+        "p25": 27.99,
+        "likes_mediana": 9.0,
+        "likes_max": 274
       },
       "veredicto": "caro",
       "ejemplos": [
         {
-          "titulo": "Chaqueta The North Face",
-          "precio": 63.0,
-          "likes": 61,
-          "url": "https://www.vinted.es/items/10475698361-chaqueta-the-north-face"
+          "titulo": "Forro Polar The North Face Original Premium Edition Retro 00",
+          "precio": 29.95,
+          "likes": 274,
+          "url": "https://www.vinted.es/items/10516997409-forro-polar-the-north-face-original-premium-edition-retro-00"
         },
         {
-          "titulo": "Veste polaire The North Face noire zippée taille L / 40 femm",
-          "precio": 25.0,
-          "likes": 51,
-          "url": "https://www.vinted.es/items/10567672103-veste-polaire-the-north-face-noire-zippee-taille-l-40-femme"
+          "titulo": "The North Face Forro Polar Black Premium Triple Retro 00",
+          "precio": 29.95,
+          "likes": 108,
+          "url": "https://www.vinted.es/items/10516988553-the-north-face-forro-polar-black-premium-triple-retro-00"
         },
         {
-          "titulo": "Chaquetón acolchado the north face",
-          "precio": 50.0,
-          "likes": 43,
-          "url": "https://www.vinted.es/items/10565753479-chaqueton-acolchado-the-north-face"
+          "titulo": "The North Face Vintage Forro Polar Original Edition Retro Cl",
+          "precio": 29.95,
+          "likes": 76,
+          "url": "https://www.vinted.es/items/10566370052-the-north-face-vintage-forro-polar-original-edition-retro-classics-00"
         }
       ]
     },
@@ -207,34 +285,34 @@
       "mi_precio": 80.0,
       "coste": 0.0,
       "mercado": {
-        "anuncios": 20,
+        "anuncios": 76,
         "vistos": 96,
-        "min": 33.0,
+        "min": 17.0,
         "mediana": 50.0,
-        "max": 125.0,
+        "max": 250.0,
         "p25": 50.0,
-        "likes_mediana": 10.0,
-        "likes_max": 41
+        "likes_mediana": 11.0,
+        "likes_max": 152
       },
       "veredicto": "caro",
       "ejemplos": [
         {
-          "titulo": "Baskets Asics gel kayano 14 taille 40",
-          "precio": 50.0,
-          "likes": 41,
-          "url": "https://www.vinted.es/items/10570433731-baskets-asics-gel-kayano-14-taille-40"
-        },
-        {
-          "titulo": "Asics gel kayano 14",
-          "precio": 45.0,
-          "likes": 26,
-          "url": "https://www.vinted.es/items/10569789875-asics-gel-kayano-14"
-        },
-        {
-          "titulo": "Asics gel kayano 14",
+          "titulo": "Asics Gel-Kayano",
           "precio": 120.0,
-          "likes": 25,
-          "url": "https://www.vinted.es/items/10548199668-asics-gel-kayano-14"
+          "likes": 152,
+          "url": "https://www.vinted.es/items/10305160156-asics-gel-kayano"
+        },
+        {
+          "titulo": "asics gel kayano rose taille36",
+          "precio": 30.0,
+          "likes": 116,
+          "url": "https://www.vinted.es/items/10572645129-asics-gel-kayano-rose-taille36"
+        },
+        {
+          "titulo": "ASICS Arthur's KITH co-branded GEL- Kayano",
+          "precio": 140.0,
+          "likes": 79,
+          "url": "https://www.vinted.es/items/10533301904-asics-arthurs-kith-co-branded-gel-kayano"
         }
       ]
     },
@@ -246,34 +324,34 @@
       "mi_precio": 80.0,
       "coste": 35.0,
       "mercado": {
-        "anuncios": 20,
+        "anuncios": 24,
         "vistos": 96,
         "min": 33.0,
-        "mediana": 50.0,
-        "max": 125.0,
+        "mediana": 60.0,
+        "max": 250.0,
         "p25": 50.0,
-        "likes_mediana": 10.0,
-        "likes_max": 41
+        "likes_mediana": 13.5,
+        "likes_max": 61
       },
       "veredicto": "caro",
       "ejemplos": [
         {
           "titulo": "Baskets Asics gel kayano 14 taille 40",
           "precio": 50.0,
-          "likes": 41,
+          "likes": 61,
           "url": "https://www.vinted.es/items/10570433731-baskets-asics-gel-kayano-14-taille-40"
         },
         {
           "titulo": "Asics gel kayano 14",
           "precio": 45.0,
-          "likes": 26,
+          "likes": 33,
           "url": "https://www.vinted.es/items/10569789875-asics-gel-kayano-14"
         },
         {
-          "titulo": "Asics gel kayano 14",
-          "precio": 120.0,
-          "likes": 25,
-          "url": "https://www.vinted.es/items/10548199668-asics-gel-kayano-14"
+          "titulo": "Asics gel kayano 20",
+          "precio": 55.0,
+          "likes": 28,
+          "url": "https://www.vinted.es/items/10568012686-asics-gel-kayano-20"
         }
       ]
     },
@@ -285,23 +363,17 @@
       "mi_precio": 85.0,
       "coste": 35.0,
       "mercado": {
-        "anuncios": 59,
+        "anuncios": 52,
         "vistos": 96,
         "min": 10.0,
-        "mediana": 50.0,
+        "mediana": 57.5,
         "max": 150.0,
-        "p25": 29.0,
-        "likes_mediana": 14,
-        "likes_max": 86
+        "p25": 35.0,
+        "likes_mediana": 11.0,
+        "likes_max": 42
       },
       "veredicto": "caro",
       "ejemplos": [
-        {
-          "titulo": "Asics gel cumulus 16 1.1",
-          "precio": 50.0,
-          "likes": 86,
-          "url": "https://www.vinted.es/items/10481708228-asics-gel-cumulus-16-11"
-        },
         {
           "titulo": "asics gel nyc",
           "precio": 10.0,
@@ -313,6 +385,12 @@
           "precio": 35.0,
           "likes": 39,
           "url": "https://www.vinted.es/items/10426177030-je-vend-ma-paire-de-asics-nyc-gel-bleue-taille-39"
+        },
+        {
+          "titulo": "ASICS Gel-Nimbus 27 EU41.5",
+          "precio": 119.0,
+          "likes": 35,
+          "url": "https://www.vinted.es/items/10437266266-asics-gel-nimbus-27-eu415"
         }
       ]
     },
@@ -324,13 +402,13 @@
       "mi_precio": 60.0,
       "coste": 0.0,
       "mercado": {
-        "anuncios": 91,
+        "anuncios": 92,
         "vistos": 96,
         "min": 18.9,
         "mediana": 115.0,
         "max": 190.0,
-        "p25": 85.0,
-        "likes_mediana": 11,
+        "p25": 105.0,
+        "likes_mediana": 9.0,
         "likes_max": 124
       },
       "veredicto": "barato",
@@ -342,55 +420,16 @@
           "url": "https://www.vinted.es/items/10002764430-asics-gel-kayano-14-maat-395"
         },
         {
-          "titulo": "Asics  Gel-NYC \"Cream\" - Grigio",
-          "precio": 130.0,
-          "likes": 114,
-          "url": "https://www.vinted.es/items/7767025894-asics-gel-nyc-cream-grigio"
-        },
-        {
           "titulo": "Asics  GEL-NYC neuves avec boîte taille 39",
           "precio": 65.0,
           "likes": 114,
           "url": "https://www.vinted.es/items/9992989712-asics-gel-nyc-neuves-avec-boite-taille-39"
-        }
-      ]
-    },
-    {
-      "nombre": "Asics Gel Cumulus 16’ Burgundy",
-      "talla": "38",
-      "imagen": "https://images1.vinted.net/t/02_01986_LgLJEmbDi13A4NNaGHNsRpGM/f800/1af91990.webp?s=99b8f9b0c242c573d46df5ad6794e91f1af80d49",
-      "unidades": 1,
-      "mi_precio": 90.0,
-      "coste": 25.0,
-      "mercado": {
-        "anuncios": 15,
-        "vistos": 22,
-        "min": 58.0,
-        "mediana": 110.0,
-        "max": 730.0,
-        "p25": 90.0,
-        "likes_mediana": 37,
-        "likes_max": 163
-      },
-      "veredicto": "barato",
-      "ejemplos": [
-        {
-          "titulo": "ASICS Gel-Cumulus 16 sneakers bordeaux/roze",
-          "precio": 90.0,
-          "likes": 163,
-          "url": "https://www.vinted.es/items/10271599100-asics-gel-cumulus-16-sneakers-bordeauxroze"
         },
         {
-          "titulo": "Burgundi Asics Gel Cumulus 16",
-          "precio": 95.0,
-          "likes": 140,
-          "url": "https://www.vinted.es/items/8465282562-burgundi-asics-gel-cumulus-16"
-        },
-        {
-          "titulo": "Asics Gel-Cumulus 16 Burgundy Pink | Talla 43.5",
-          "precio": 122.0,
-          "likes": 96,
-          "url": "https://www.vinted.es/items/9888144773-asics-gel-cumulus-16-burgundy-pink-talla-435"
+          "titulo": "Asics  Gel-NYC \"Cream\" - Grigio",
+          "precio": 130.0,
+          "likes": 113,
+          "url": "https://www.vinted.es/items/7767025894-asics-gel-nyc-cream-grigio"
         }
       ]
     },
@@ -407,68 +446,29 @@
         "min": 8.5,
         "mediana": 110.0,
         "max": 220.0,
-        "p25": 85.0,
+        "p25": 75.0,
         "likes_mediana": 20,
-        "likes_max": 205
+        "likes_max": 204
       },
       "veredicto": "barato",
       "ejemplos": [
         {
           "titulo": "Ugg tasman beige",
           "precio": 105.0,
-          "likes": 205,
+          "likes": 204,
           "url": "https://www.vinted.es/items/6871094796-ugg-tasman-beige"
-        },
-        {
-          "titulo": "Ugg tasman platform.",
-          "precio": 120.0,
-          "likes": 121,
-          "url": "https://www.vinted.es/items/9726194173-ugg-tasman-platform"
         },
         {
           "titulo": "UGG Tasman Cherry",
           "precio": 110.0,
           "likes": 107,
           "url": "https://www.vinted.es/items/7233460263-ugg-tasman-cherry"
-        }
-      ]
-    },
-    {
-      "nombre": "Nike Tech Nocta",
-      "talla": "M",
-      "imagen": "data:image/jpeg;base64,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",
-      "unidades": 1,
-      "mi_precio": 50.0,
-      "coste": 20.0,
-      "mercado": {
-        "anuncios": 89,
-        "vistos": 96,
-        "min": 10.0,
-        "mediana": 110.0,
-        "max": 400.0,
-        "p25": 50.0,
-        "likes_mediana": 22,
-        "likes_max": 110
-      },
-      "veredicto": "barato",
-      "ejemplos": [
-        {
-          "titulo": "Nike tech Nocta",
-          "precio": 110.0,
-          "likes": 110,
-          "url": "https://www.vinted.es/items/7484578482-nike-tech-nocta"
         },
         {
-          "titulo": "Chandal Nike Tech por Nocta",
+          "titulo": "Ugg Tasman alpine",
           "precio": 110.0,
-          "likes": 98,
-          "url": "https://www.vinted.es/items/6226263813-chandal-nike-tech-por-nocta"
-        },
-        {
-          "titulo": "Nike Tech Digital Camo Tracksuit / Size S",
-          "precio": 155.0,
-          "likes": 97,
-          "url": "https://www.vinted.es/items/9708451424-nike-tech-digital-camo-tracksuit-size-s"
+          "likes": 87,
+          "url": "https://www.vinted.es/items/7191301446-ugg-tasman-alpine"
         }
       ]
     },
@@ -485,8 +485,8 @@
         "min": 10.0,
         "mediana": 110.0,
         "max": 400.0,
-        "p25": 50.0,
-        "likes_mediana": 22,
+        "p25": 55.0,
+        "likes_mediana": 23,
         "likes_max": 110
       },
       "veredicto": "barato",
@@ -526,14 +526,14 @@
         "max": 290.0,
         "p25": 125.0,
         "likes_mediana": 4,
-        "likes_max": 38
+        "likes_max": 39
       },
       "veredicto": "barato",
       "ejemplos": [
         {
           "titulo": "Ceinture Mont Blanc",
           "precio": 125.0,
-          "likes": 38,
+          "likes": 39,
           "url": "https://www.vinted.es/items/7067423679-ceinture-mont-blanc"
         },
         {
@@ -565,14 +565,14 @@
         "max": 290.0,
         "p25": 125.0,
         "likes_mediana": 4,
-        "likes_max": 38
+        "likes_max": 39
       },
       "veredicto": "barato",
       "ejemplos": [
         {
           "titulo": "Ceinture Mont Blanc",
           "precio": 125.0,
-          "likes": 38,
+          "likes": 39,
           "url": "https://www.vinted.es/items/7067423679-ceinture-mont-blanc"
         },
         {
@@ -600,18 +600,24 @@
         "anuncios": 10,
         "vistos": 96,
         "min": 10.0,
-        "mediana": 26.5,
+        "mediana": 32.5,
         "max": 69.99,
-        "p25": 15.0,
-        "likes_mediana": 16.0,
-        "likes_max": 30
+        "p25": 20.0,
+        "likes_mediana": 15.5,
+        "likes_max": 41
       },
       "veredicto": "barato",
       "ejemplos": [
         {
+          "titulo": "Nike Air Max Plus Slip SP negras y doradas vintage",
+          "precio": 41.99,
+          "likes": 41,
+          "url": "https://www.vinted.es/items/10468440495-nike-air-max-plus-slip-sp-negras-y-doradas-vintage"
+        },
+        {
           "titulo": "Nike TN negras",
           "precio": 20.0,
-          "likes": 30,
+          "likes": 31,
           "url": "https://www.vinted.es/items/10362534210-nike-tn-negras"
         },
         {
@@ -619,12 +625,6 @@
           "precio": 69.99,
           "likes": 27,
           "url": "https://www.vinted.es/items/10525122817-nike-tn-negras"
-        },
-        {
-          "titulo": "Nike Tn negras originales-38,5",
-          "precio": 23.0,
-          "likes": 22,
-          "url": "https://www.vinted.es/items/10543550791-nike-tn-negras-originales-385"
         }
       ]
     },
@@ -636,34 +636,34 @@
       "mi_precio": 20.0,
       "coste": 10.0,
       "mercado": {
-        "anuncios": 45,
+        "anuncios": 56,
         "vistos": 96,
-        "min": 19.95,
-        "mediana": 75.0,
-        "max": 205.0,
-        "p25": 42.0,
-        "likes_mediana": 26,
-        "likes_max": 359
+        "min": 1.0,
+        "mediana": 119.95,
+        "max": 200.0,
+        "p25": 59.0,
+        "likes_mediana": 25.0,
+        "likes_max": 197
       },
       "veredicto": "barato",
       "ejemplos": [
         {
-          "titulo": "Abrigo Alo Yoga",
-          "precio": 125.0,
-          "likes": 359,
-          "url": "https://www.vinted.es/items/7459876242-abrigo-alo-yoga"
+          "titulo": "Sac de rangement Alo Yoga neuf avec étiquette",
+          "precio": 34.99,
+          "likes": 197,
+          "url": "https://www.vinted.es/items/10562729641-sac-de-rangement-alo-yoga-neuf-avec-etiquette"
         },
         {
-          "titulo": "Veste courte en maille Scholar à fermeture zippée intégrale ",
-          "precio": 183.0,
-          "likes": 178,
-          "url": "https://www.vinted.es/items/8216662790-veste-courte-en-maille-scholar-a-fermeture-zippee-integrale-blanc-casse-taille-m-alo-yoga"
+          "titulo": "Ensemble Alo Yoga Conquer Max Navy",
+          "precio": 200.0,
+          "likes": 162,
+          "url": "https://www.vinted.es/items/10505829996-ensemble-alo-yoga-conquer-max-navy"
         },
         {
-          "titulo": "Baskets Alo Yoga Runner Homme",
-          "precio": 115.0,
-          "likes": 159,
-          "url": "https://www.vinted.es/items/9699507249-baskets-alo-yoga-runner-homme"
+          "titulo": "Alo Yoga Ensemble 2 pièces marron S – T-shirt + pantalon lar",
+          "precio": 59.0,
+          "likes": 132,
+          "url": "https://www.vinted.es/items/10575026240-alo-yoga-ensemble-2-pieces-marron-s-t-shirt-pantalon-large"
         }
       ]
     },
@@ -675,17 +675,23 @@
       "mi_precio": 20.0,
       "coste": 0.0,
       "mercado": {
-        "anuncios": 52,
+        "anuncios": 57,
         "vistos": 96,
-        "min": 14.0,
-        "mediana": 112.5,
+        "min": 1.0,
+        "mediana": 120.0,
         "max": 350.0,
         "p25": 58.0,
-        "likes_mediana": 15.0,
-        "likes_max": 117
+        "likes_mediana": 24,
+        "likes_max": 145
       },
       "veredicto": "barato",
       "ejemplos": [
+        {
+          "titulo": "Accolade Pullover - Alo Yoga - Talla XS",
+          "precio": 110.0,
+          "likes": 145,
+          "url": "https://www.vinted.es/items/10082781228-accolade-pullover-alo-yoga-talla-xs"
+        },
         {
           "titulo": "Alo Yoga Sunset Sneaker Zwart Wit Maat EU39",
           "precio": 155.0,
@@ -695,14 +701,8 @@
         {
           "titulo": "Alo Yoga Puffer Bomber",
           "precio": 155.0,
-          "likes": 108,
+          "likes": 112,
           "url": "https://www.vinted.es/items/10507740897-alo-yoga-puffer-bomber"
-        },
-        {
-          "titulo": "Ensemble Alo Yoga noir imperméable",
-          "precio": 350.0,
-          "likes": 86,
-          "url": "https://www.vinted.es/items/10543766095-ensemble-alo-yoga-noir-impermeable"
         }
       ]
     },
@@ -714,33 +714,33 @@
       "mi_precio": 50.0,
       "coste": 18.33,
       "mercado": {
-        "anuncios": 90,
+        "anuncios": 87,
         "vistos": 96,
-        "min": 15.0,
-        "mediana": 110.0,
-        "max": 359.0,
-        "p25": 60.0,
-        "likes_mediana": 10.5,
-        "likes_max": 89
+        "min": 24.49,
+        "mediana": 115.0,
+        "max": 355.0,
+        "p25": 56.0,
+        "likes_mediana": 15,
+        "likes_max": 90
       },
       "veredicto": "barato",
       "ejemplos": [
         {
           "titulo": "Anorak north face",
           "precio": 80.0,
-          "likes": 89,
+          "likes": 90,
           "url": "https://www.vinted.es/items/9894318802-anorak-north-face"
         },
         {
           "titulo": "Veste polaire The North Face 94 High Pile Denali – Blanc / G",
           "precio": 79.0,
-          "likes": 77,
+          "likes": 80,
           "url": "https://www.vinted.es/items/10507631018-veste-polaire-the-north-face-94-high-pile-denali-blanc-gravel"
         },
         {
           "titulo": "The north face W yumiori full zip timeless taupe",
           "precio": 60.0,
-          "likes": 58,
+          "likes": 66,
           "url": "https://www.vinted.es/items/10562099161-the-north-face-w-yumiori-full-zip-timeless-taupe"
         }
       ]
@@ -753,21 +753,21 @@
       "mi_precio": 25.0,
       "coste": 0.0,
       "mercado": {
-        "anuncios": 90,
+        "anuncios": 91,
         "vistos": 96,
-        "min": 19.99,
-        "mediana": 117.5,
+        "min": 11.0,
+        "mediana": 115.0,
         "max": 249.0,
         "p25": 49.9,
-        "likes_mediana": 5.0,
-        "likes_max": 131
+        "likes_mediana": 5,
+        "likes_max": 135
       },
       "veredicto": "barato",
       "ejemplos": [
         {
           "titulo": "The North Face White Full Zip Hoodie Jacket Women's S Outdoo",
-          "precio": 21.99,
-          "likes": 131,
+          "precio": 19.99,
+          "likes": 135,
           "url": "https://www.vinted.es/items/10407663409-the-north-face-white-full-zip-hoodie-jacket-womens-s-outdoor-sportswear"
         },
         {
@@ -792,23 +792,17 @@
       "mi_precio": 30.0,
       "coste": 16.0,
       "mercado": {
-        "anuncios": 71,
+        "anuncios": 66,
         "vistos": 96,
-        "min": 26.0,
-        "mediana": 110.0,
+        "min": 38.0,
+        "mediana": 112.5,
         "max": 300.0,
-        "p25": 60.0,
-        "likes_mediana": 24,
-        "likes_max": 205
+        "p25": 65.0,
+        "likes_mediana": 26.0,
+        "likes_max": 144
       },
       "veredicto": "barato",
       "ejemplos": [
-        {
-          "titulo": "Adidas Samba glitter/silver 39 1/3",
-          "precio": 59.99,
-          "likes": 205,
-          "url": "https://www.vinted.es/items/10319187456-adidas-samba-glittersilver-39-13"
-        },
         {
           "titulo": "Zapatillas Adidas samba brillantes",
           "precio": 137.0,
@@ -820,6 +814,12 @@
           "precio": 80.0,
           "likes": 122,
           "url": "https://www.vinted.es/items/10316058693-adidas-samba-og-metallic"
+        },
+        {
+          "titulo": "Adidas Samba prateados",
+          "precio": 60.0,
+          "likes": 113,
+          "url": "https://www.vinted.es/items/10525908138-adidas-samba-prateados"
         }
       ]
     },
@@ -831,23 +831,17 @@
       "mi_precio": 30.0,
       "coste": 16.0,
       "mercado": {
-        "anuncios": 71,
+        "anuncios": 66,
         "vistos": 96,
-        "min": 26.0,
-        "mediana": 110.0,
+        "min": 38.0,
+        "mediana": 112.5,
         "max": 300.0,
-        "p25": 60.0,
-        "likes_mediana": 24,
-        "likes_max": 205
+        "p25": 65.0,
+        "likes_mediana": 26.0,
+        "likes_max": 144
       },
       "veredicto": "barato",
       "ejemplos": [
-        {
-          "titulo": "Adidas Samba glitter/silver 39 1/3",
-          "precio": 59.99,
-          "likes": 205,
-          "url": "https://www.vinted.es/items/10319187456-adidas-samba-glittersilver-39-13"
-        },
         {
           "titulo": "Zapatillas Adidas samba brillantes",
           "precio": 137.0,
@@ -859,6 +853,12 @@
           "precio": 80.0,
           "likes": 122,
           "url": "https://www.vinted.es/items/10316058693-adidas-samba-og-metallic"
+        },
+        {
+          "titulo": "Adidas Samba prateados",
+          "precio": 60.0,
+          "likes": 113,
+          "url": "https://www.vinted.es/items/10525908138-adidas-samba-prateados"
         }
       ]
     },
@@ -905,31 +905,31 @@
   ],
   "top_compras": [
     {
-      "nombre": "Asics Gel Cumulus 16’ Burgundy",
-      "score": 15.2,
-      "demanda": 37,
-      "competencia": 15,
-      "precio_venta_sugerido": 110.0,
-      "precio_compra_max": 60.5,
-      "motivo": "37 ❤ de media · 15 anuncios parecidos"
+      "nombre": "TN Negras",
+      "score": 8.25,
+      "demanda": 15.5,
+      "competencia": 10,
+      "precio_venta_sugerido": 32.5,
+      "precio_compra_max": 17.88,
+      "motivo": "15 ❤ de media · 10 anuncios parecidos"
     },
     {
-      "nombre": "TN Negras",
-      "score": 8.5,
-      "demanda": 16.0,
-      "competencia": 10,
-      "precio_venta_sugerido": 26.5,
-      "precio_compra_max": 14.58,
-      "motivo": "16 ❤ de media · 10 anuncios parecidos"
+      "nombre": "Asics  Kayano 14 Negras",
+      "score": 4.26,
+      "demanda": 13.5,
+      "competencia": 24,
+      "precio_venta_sugerido": 60.0,
+      "precio_compra_max": 33.0,
+      "motivo": "13 ❤ de media · 24 anuncios parecidos"
     },
     {
       "nombre": "Alo Yoga Blanca",
-      "score": 4.91,
-      "demanda": 26,
-      "competencia": 45,
-      "precio_venta_sugerido": 75.0,
-      "precio_compra_max": 41.25,
-      "motivo": "26 ❤ de media · 45 anuncios parecidos"
+      "score": 3.94,
+      "demanda": 25.0,
+      "competencia": 56,
+      "precio_venta_sugerido": 119.95,
+      "precio_compra_max": 65.97,
+      "motivo": "25 ❤ de media · 56 anuncios parecidos"
     },
     {
       "nombre": "Cinturon Mont Blanc 120cm",
@@ -941,40 +941,40 @@
       "motivo": "4 ❤ de media · 3 anuncios parecidos"
     },
     {
-      "nombre": "Asics  Kayano 14 Negras",
-      "score": 3.67,
-      "demanda": 10.0,
-      "competencia": 20,
-      "precio_venta_sugerido": 50.0,
-      "precio_compra_max": 27.5,
-      "motivo": "10 ❤ de media · 20 anuncios parecidos"
+      "nombre": "Alo Yoga Negra",
+      "score": 3.73,
+      "demanda": 24,
+      "competencia": 57,
+      "precio_venta_sugerido": 120.0,
+      "precio_compra_max": 66.0,
+      "motivo": "24 ❤ de media · 57 anuncios parecidos"
     },
     {
       "nombre": "Adidas Samba Plateadas",
-      "score": 3.09,
-      "demanda": 24,
-      "competencia": 71,
-      "precio_venta_sugerido": 110.0,
-      "precio_compra_max": 60.5,
-      "motivo": "24 ❤ de media · 71 anuncios parecidos"
-    },
-    {
-      "nombre": "Alo Yoga Negra",
-      "score": 2.58,
-      "demanda": 15.0,
-      "competencia": 52,
+      "score": 3.55,
+      "demanda": 26.0,
+      "competencia": 66,
       "precio_venta_sugerido": 112.5,
       "precio_compra_max": 61.88,
-      "motivo": "15 ❤ de media · 52 anuncios parecidos"
+      "motivo": "26 ❤ de media · 66 anuncios parecidos"
     },
     {
       "nombre": "Nike Tech Nocta",
-      "score": 2.32,
-      "demanda": 22,
+      "score": 2.42,
+      "demanda": 23,
       "competencia": 89,
       "precio_venta_sugerido": 110.0,
       "precio_compra_max": 60.5,
-      "motivo": "22 ❤ de media · 89 anuncios parecidos"
+      "motivo": "23 ❤ de media · 89 anuncios parecidos"
+    },
+    {
+      "nombre": "UGG Tasman Beige",
+      "score": 2.16,
+      "demanda": 20,
+      "competencia": 87,
+      "precio_venta_sugerido": 110.0,
+      "precio_compra_max": 60.5,
+      "motivo": "20 ❤ de media · 87 anuncios parecidos"
     }
   ]
 }
