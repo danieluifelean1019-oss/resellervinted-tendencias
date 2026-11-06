@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-06T03:36:13+02:00",
+  "actualizado": "2026-11-06T06:18:36+02:00",
   "fuente": "Tu inventario (Firestore) + búsqueda pública de Vinted",
   "total_stock": 24,
   "analizados": 24,
@@ -14,10 +14,10 @@
       "mercado": {
         "anuncios": 77,
         "vistos": 96,
-        "min": 7.0,
-        "mediana": 68.0,
+        "min": 15.0,
+        "mediana": 69.99,
         "max": 300.0,
-        "p25": 44.95,
+        "p25": 40.0,
         "likes_mediana": 7,
         "likes_max": 205
       },
@@ -51,13 +51,13 @@
       "mi_precio": 10.0,
       "coste": 2.5,
       "mercado": {
-        "anuncios": 88,
+        "anuncios": 87,
         "vistos": 96,
         "min": 1.0,
-        "mediana": 3.0,
+        "mediana": 3.25,
         "max": 100.0,
         "p25": 1.5,
-        "likes_mediana": 2.0,
+        "likes_mediana": 2,
         "likes_max": 23
       },
       "veredicto": "caro",
@@ -75,10 +75,10 @@
           "url": "https://www.vinted.es/items/10554633898-tarjetas-nfc-para-resenas-de-google"
         },
         {
-          "titulo": "Tarjetas calidad NFC+QR Google Instagram Negocios",
-          "precio": 4.0,
-          "likes": 14,
-          "url": "https://www.vinted.es/items/10254051294-tarjetas-calidad-nfcqr-google-instagram-negocios"
+          "titulo": "Tarjetas nfc Google Review",
+          "precio": 1.0,
+          "likes": 13,
+          "url": "https://www.vinted.es/items/10620089644-tarjetas-nfc-google-review"
         }
       ]
     },
@@ -90,13 +90,13 @@
       "mi_precio": 80.0,
       "coste": 0.0,
       "mercado": {
-        "anuncios": 19,
+        "anuncios": 18,
         "vistos": 96,
         "min": 30.0,
         "mediana": 50.0,
         "max": 89.99,
         "p25": 50.0,
-        "likes_mediana": 10,
+        "likes_mediana": 12.0,
         "likes_max": 66
       },
       "veredicto": "caro",
@@ -129,13 +129,13 @@
       "mi_precio": 80.0,
       "coste": 35.0,
       "mercado": {
-        "anuncios": 19,
+        "anuncios": 18,
         "vistos": 96,
         "min": 30.0,
         "mediana": 50.0,
         "max": 89.99,
         "p25": 50.0,
-        "likes_mediana": 10,
+        "likes_mediana": 12.0,
         "likes_max": 66
       },
       "veredicto": "caro",
@@ -168,21 +168,21 @@
       "mi_precio": 85.0,
       "coste": 35.0,
       "mercado": {
-        "anuncios": 49,
+        "anuncios": 53,
         "vistos": 96,
-        "min": 9.0,
-        "mediana": 60.0,
+        "min": 3.5,
+        "mediana": 55.0,
         "max": 140.0,
-        "p25": 39.99,
-        "likes_mediana": 15,
-        "likes_max": 105
+        "p25": 35.0,
+        "likes_mediana": 17,
+        "likes_max": 106
       },
       "veredicto": "caro",
       "ejemplos": [
         {
           "titulo": "Asics gel NYC",
           "precio": 70.0,
-          "likes": 105,
+          "likes": 106,
           "url": "https://www.vinted.es/items/9814954866-asics-gel-nyc"
         },
         {
@@ -207,13 +207,13 @@
       "mi_precio": 25.0,
       "coste": 30.0,
       "mercado": {
-        "anuncios": 11,
+        "anuncios": 10,
         "vistos": 96,
-        "min": 12.0,
+        "min": 20.0,
         "mediana": 25.0,
         "max": 115.0,
         "p25": 20.0,
-        "likes_mediana": 12,
+        "likes_mediana": 16.5,
         "likes_max": 42
       },
       "veredicto": "de mercado",
@@ -252,7 +252,7 @@
         "mediana": 38.0,
         "max": 100.0,
         "p25": 25.0,
-        "likes_mediana": 13.0,
+        "likes_mediana": 13.5,
         "likes_max": 150
       },
       "veredicto": "de mercado",
@@ -264,16 +264,16 @@
           "url": "https://www.vinted.es/items/10318308385-pull-stussy"
         },
         {
+          "titulo": "jersey stussy rosa letras",
+          "precio": 30.0,
+          "likes": 80,
+          "url": "https://www.vinted.es/items/8748663700-jersey-stussy-rosa-letras"
+        },
+        {
           "titulo": "Maglione Stussy",
           "precio": 55.0,
           "likes": 77,
           "url": "https://www.vinted.es/items/10172500989-maglione-stussy"
-        },
-        {
-          "titulo": "Stüssy crewneck  Sweater Pink – Tamanho M -Unisexo",
-          "precio": 65.0,
-          "likes": 58,
-          "url": "https://www.vinted.es/items/10482684731-stussy-crewneck-sweater-pink-tamanho-m-unisexo"
         }
       ]
     },
@@ -291,7 +291,7 @@
         "mediana": 38.0,
         "max": 100.0,
         "p25": 25.0,
-        "likes_mediana": 13.0,
+        "likes_mediana": 13.5,
         "likes_max": 150
       },
       "veredicto": "de mercado",
@@ -303,16 +303,16 @@
           "url": "https://www.vinted.es/items/10318308385-pull-stussy"
         },
         {
+          "titulo": "jersey stussy rosa letras",
+          "precio": 30.0,
+          "likes": 80,
+          "url": "https://www.vinted.es/items/8748663700-jersey-stussy-rosa-letras"
+        },
+        {
           "titulo": "Maglione Stussy",
           "precio": 55.0,
           "likes": 77,
           "url": "https://www.vinted.es/items/10172500989-maglione-stussy"
-        },
-        {
-          "titulo": "Stüssy crewneck  Sweater Pink – Tamanho M -Unisexo",
-          "precio": 65.0,
-          "likes": 58,
-          "url": "https://www.vinted.es/items/10482684731-stussy-crewneck-sweater-pink-tamanho-m-unisexo"
         }
       ]
     },
@@ -324,13 +324,13 @@
       "mi_precio": 50.0,
       "coste": 18.5,
       "mercado": {
-        "anuncios": 73,
+        "anuncios": 77,
         "vistos": 96,
         "min": 14.99,
-        "mediana": 44.95,
-        "max": 99.99,
-        "p25": 30.0,
-        "likes_mediana": 17,
+        "mediana": 45.0,
+        "max": 150.0,
+        "p25": 33.0,
+        "likes_mediana": 16,
         "likes_max": 128
       },
       "veredicto": "de mercado",
@@ -363,13 +363,13 @@
       "mi_precio": 60.0,
       "coste": 0.0,
       "mercado": {
-        "anuncios": 88,
+        "anuncios": 89,
         "vistos": 96,
         "min": 20.0,
         "mediana": 115.0,
         "max": 190.0,
         "p25": 99.0,
-        "likes_mediana": 11.0,
+        "likes_mediana": 11,
         "likes_max": 112
       },
       "veredicto": "barato",
@@ -387,10 +387,10 @@
           "url": "https://www.vinted.es/items/9583332522-nieuwe-asics-gel-nyc-pure-cream"
         },
         {
-          "titulo": "ASICS Gel-NYC - Cream Rose Water",
-          "precio": 120.0,
-          "likes": 85,
-          "url": "https://www.vinted.es/items/7605150263-asics-gel-nyc-cream-rose-water"
+          "titulo": "Asics NYC cream pink",
+          "precio": 109.9,
+          "likes": 92,
+          "url": "https://www.vinted.es/items/8899611880-asics-nyc-cream-pink"
         }
       ]
     },
@@ -444,10 +444,10 @@
         "anuncios": 85,
         "vistos": 96,
         "min": 10.0,
-        "mediana": 110.0,
+        "mediana": 115.0,
         "max": 290.0,
         "p25": 103.0,
-        "likes_mediana": 24,
+        "likes_mediana": 25,
         "likes_max": 203
       },
       "veredicto": "barato",
@@ -480,13 +480,13 @@
       "mi_precio": 50.0,
       "coste": 20.0,
       "mercado": {
-        "anuncios": 88,
+        "anuncios": 87,
         "vistos": 96,
         "min": 10.0,
         "mediana": 110.0,
         "max": 400.0,
         "p25": 55.0,
-        "likes_mediana": 23.0,
+        "likes_mediana": 22,
         "likes_max": 167
       },
       "veredicto": "barato",
@@ -519,13 +519,13 @@
       "mi_precio": 50.0,
       "coste": 20.0,
       "mercado": {
-        "anuncios": 88,
+        "anuncios": 87,
         "vistos": 96,
         "min": 10.0,
         "mediana": 110.0,
         "max": 400.0,
         "p25": 55.0,
-        "likes_mediana": 23.0,
+        "likes_mediana": 22,
         "likes_max": 167
       },
       "veredicto": "barato",
@@ -636,13 +636,13 @@
       "mi_precio": 20.0,
       "coste": 10.0,
       "mercado": {
-        "anuncios": 46,
+        "anuncios": 47,
         "vistos": 96,
-        "min": 16.0,
-        "mediana": 103.5,
+        "min": 13.0,
+        "mediana": 98.0,
         "max": 215.0,
-        "p25": 38.0,
-        "likes_mediana": 15.0,
+        "p25": 35.0,
+        "likes_mediana": 14,
         "likes_max": 364
       },
       "veredicto": "barato",
@@ -675,7 +675,7 @@
       "mi_precio": 20.0,
       "coste": 0.0,
       "mercado": {
-        "anuncios": 61,
+        "anuncios": 63,
         "vistos": 96,
         "min": 10.0,
         "mediana": 120.0,
@@ -699,10 +699,10 @@
           "url": "https://www.vinted.es/items/10462444427-top-alo-yoga-negro"
         },
         {
-          "titulo": "Alo Yoga Airbrush Heart Throb set in zwart maat M",
-          "precio": 135.0,
-          "likes": 100,
-          "url": "https://www.vinted.es/items/10558269625-alo-yoga-airbrush-heart-throb-set-in-zwart-maat-m"
+          "titulo": "Alo Yoga Cropped Windbreaker",
+          "precio": 65.0,
+          "likes": 102,
+          "url": "https://www.vinted.es/items/10682002935-alo-yoga-cropped-windbreaker"
         }
       ]
     },
@@ -718,17 +718,17 @@
         "vistos": 96,
         "min": 19.0,
         "mediana": 115.0,
-        "max": 280.0,
+        "max": 350.0,
         "p25": 60.0,
         "likes_mediana": 15,
-        "likes_max": 189
+        "likes_max": 190
       },
       "veredicto": "barato",
       "ejemplos": [
         {
           "titulo": "Chaqueta The North Face HyVent Uni Sex",
           "precio": 45.99,
-          "likes": 189,
+          "likes": 190,
           "url": "https://www.vinted.es/items/10628813606-chaqueta-the-north-face-hyvent-uni-sex"
         },
         {
@@ -738,10 +738,10 @@
           "url": "https://www.vinted.es/items/9894318802-anorak-north-face"
         },
         {
-          "titulo": "Chubasquero The North Face",
-          "precio": 55.0,
-          "likes": 141,
-          "url": "https://www.vinted.es/items/10648337005-chubasquero-the-north-face"
+          "titulo": "Doudoune the north face enfant",
+          "precio": 40.0,
+          "likes": 103,
+          "url": "https://www.vinted.es/items/10680608153-doudoune-the-north-face-enfant"
         }
       ]
     },
@@ -757,9 +757,9 @@
         "vistos": 96,
         "min": 14.3,
         "mediana": 120.0,
-        "max": 249.0,
-        "p25": 52.5,
-        "likes_mediana": 7.0,
+        "max": 200.0,
+        "p25": 50.0,
+        "likes_mediana": 6.0,
         "likes_max": 155
       },
       "veredicto": "barato",
@@ -792,34 +792,34 @@
       "mi_precio": 30.0,
       "coste": 16.0,
       "mercado": {
-        "anuncios": 71,
+        "anuncios": 68,
         "vistos": 96,
         "min": 25.0,
-        "mediana": 110.5,
+        "mediana": 112.75,
         "max": 350.0,
         "p25": 80.0,
-        "likes_mediana": 23,
-        "likes_max": 178
+        "likes_mediana": 23.5,
+        "likes_max": 179
       },
       "veredicto": "barato",
       "ejemplos": [
         {
           "titulo": "Adidas Samba prateados",
           "precio": 60.0,
-          "likes": 178,
+          "likes": 179,
           "url": "https://www.vinted.es/items/10525908138-adidas-samba-prateados"
+        },
+        {
+          "titulo": "Adidas Samba OG Metallic",
+          "precio": 80.0,
+          "likes": 173,
+          "url": "https://www.vinted.es/items/10316058693-adidas-samba-og-metallic"
         },
         {
           "titulo": "Zapatillas Adidas samba brillantes",
           "precio": 137.0,
           "likes": 152,
           "url": "https://www.vinted.es/items/9255108925-zapatillas-adidas-samba-brillantes"
-        },
-        {
-          "titulo": "Adidas Samba Wales Bonner -Silver-",
-          "precio": 140.0,
-          "likes": 151,
-          "url": "https://www.vinted.es/items/7074862517-adidas-samba-wales-bonner-silver"
         }
       ]
     },
@@ -831,34 +831,34 @@
       "mi_precio": 30.0,
       "coste": 16.0,
       "mercado": {
-        "anuncios": 71,
+        "anuncios": 68,
         "vistos": 96,
         "min": 25.0,
-        "mediana": 110.5,
+        "mediana": 112.75,
         "max": 350.0,
         "p25": 80.0,
-        "likes_mediana": 23,
-        "likes_max": 178
+        "likes_mediana": 23.5,
+        "likes_max": 179
       },
       "veredicto": "barato",
       "ejemplos": [
         {
           "titulo": "Adidas Samba prateados",
           "precio": 60.0,
-          "likes": 178,
+          "likes": 179,
           "url": "https://www.vinted.es/items/10525908138-adidas-samba-prateados"
+        },
+        {
+          "titulo": "Adidas Samba OG Metallic",
+          "precio": 80.0,
+          "likes": 173,
+          "url": "https://www.vinted.es/items/10316058693-adidas-samba-og-metallic"
         },
         {
           "titulo": "Zapatillas Adidas samba brillantes",
           "precio": 137.0,
           "likes": 152,
           "url": "https://www.vinted.es/items/9255108925-zapatillas-adidas-samba-brillantes"
-        },
-        {
-          "titulo": "Adidas Samba Wales Bonner -Silver-",
-          "precio": 140.0,
-          "likes": 151,
-          "url": "https://www.vinted.es/items/7074862517-adidas-samba-wales-bonner-silver"
         }
       ]
     },
@@ -906,12 +906,12 @@
   "top_compras": [
     {
       "nombre": "TN Negras",
-      "score": 6.19,
-      "demanda": 12,
-      "competencia": 11,
+      "score": 8.75,
+      "demanda": 16.5,
+      "competencia": 10,
       "precio_venta_sugerido": 25.0,
       "precio_compra_max": 13.75,
-      "motivo": "12 ❤ de media · 11 anuncios parecidos"
+      "motivo": "16 ❤ de media · 10 anuncios parecidos"
     },
     {
       "nombre": "Asics Gel Cumulus 16’ Burgundy",
@@ -923,13 +923,22 @@
       "motivo": "12 ❤ de media · 13 anuncios parecidos"
     },
     {
+      "nombre": "Asics  Kayano 14 Negras",
+      "score": 4.64,
+      "demanda": 12.0,
+      "competencia": 18,
+      "precio_venta_sugerido": 50.0,
+      "precio_compra_max": 27.5,
+      "motivo": "12 ❤ de media · 18 anuncios parecidos"
+    },
+    {
       "nombre": "Alo Yoga Negra",
-      "score": 4.51,
+      "score": 4.38,
       "demanda": 31,
-      "competencia": 61,
+      "competencia": 63,
       "precio_venta_sugerido": 120.0,
       "precio_compra_max": 66.0,
-      "motivo": "31 ❤ de media · 61 anuncios parecidos"
+      "motivo": "31 ❤ de media · 63 anuncios parecidos"
     },
     {
       "nombre": "Cinturon Mont Blanc 120cm",
@@ -941,40 +950,31 @@
       "motivo": "4 ❤ de media · 3 anuncios parecidos"
     },
     {
-      "nombre": "Asics  Kayano 14 Negras",
-      "score": 3.79,
-      "demanda": 10,
-      "competencia": 19,
-      "precio_venta_sugerido": 50.0,
-      "precio_compra_max": 27.5,
-      "motivo": "10 ❤ de media · 19 anuncios parecidos"
-    },
-    {
       "nombre": "Adidas Samba Plateadas",
-      "score": 2.96,
-      "demanda": 23,
-      "competencia": 71,
-      "precio_venta_sugerido": 110.5,
-      "precio_compra_max": 60.78,
-      "motivo": "23 ❤ de media · 71 anuncios parecidos"
-    },
-    {
-      "nombre": "Alo Yoga Blanca",
-      "score": 2.86,
-      "demanda": 15.0,
-      "competencia": 46,
-      "precio_venta_sugerido": 103.5,
-      "precio_compra_max": 56.93,
-      "motivo": "15 ❤ de media · 46 anuncios parecidos"
+      "score": 3.14,
+      "demanda": 23.5,
+      "competencia": 68,
+      "precio_venta_sugerido": 112.75,
+      "precio_compra_max": 62.01,
+      "motivo": "23 ❤ de media · 68 anuncios parecidos"
     },
     {
       "nombre": "Asics Gel Nyc Blue",
-      "score": 2.71,
-      "demanda": 15,
-      "competencia": 49,
-      "precio_venta_sugerido": 60.0,
-      "precio_compra_max": 33.0,
-      "motivo": "15 ❤ de media · 49 anuncios parecidos"
+      "score": 2.86,
+      "demanda": 17,
+      "competencia": 53,
+      "precio_venta_sugerido": 55.0,
+      "precio_compra_max": 30.25,
+      "motivo": "17 ❤ de media · 53 anuncios parecidos"
+    },
+    {
+      "nombre": "UGG Tasman Beige",
+      "score": 2.74,
+      "demanda": 25,
+      "competencia": 85,
+      "precio_venta_sugerido": 115.0,
+      "precio_compra_max": 63.25,
+      "motivo": "25 ❤ de media · 85 anuncios parecidos"
     }
   ]
 }
