@@ -1,48 +1,9 @@
 {
-  "actualizado": "2026-11-22T03:27:24+02:00",
+  "actualizado": "2026-11-22T13:42:35+02:00",
   "fuente": "Tu inventario (Firestore) + búsqueda pública de Vinted",
   "total_stock": 24,
   "analizados": 24,
   "articulos": [
-    {
-      "nombre": "Asics Gel Nyc Cream",
-      "talla": "43",
-      "imagen": "https://i8.amplience.net/i/jpl/jd_729151_a?qlt=92",
-      "unidades": 1,
-      "mi_precio": 60.0,
-      "coste": 0.0,
-      "mercado": {
-        "anuncios": 89,
-        "vistos": 96,
-        "min": 15.0,
-        "mediana": 50.0,
-        "max": 290.0,
-        "p25": 45.0,
-        "likes_mediana": 11,
-        "likes_max": 159
-      },
-      "veredicto": "caro",
-      "ejemplos": [
-        {
-          "titulo": "Asics Gel Kayano 14",
-          "precio": 115.0,
-          "likes": 159,
-          "url": "https://www.vinted.es/items/10129381622-asics-gel-kayano-14"
-        },
-        {
-          "titulo": "Asics gel cumulus 16 driftwood/butter - taille 40",
-          "precio": 200.0,
-          "likes": 133,
-          "url": "https://www.vinted.es/items/10544731378-asics-gel-cumulus-16-driftwoodbutter-taille-40"
-        },
-        {
-          "titulo": "Zapatillas ASICS Gel-Kayano 14 x Kith \"Cream / Scarab\" (Tall",
-          "precio": 60.0,
-          "likes": 107,
-          "url": "https://www.vinted.es/items/10871344062-zapatillas-asics-gel-kayano-14-x-kith-cream-scarab-talla-415-eu"
-        }
-      ]
-    },
     {
       "nombre": "Asics Gel Nyc Silver Gray",
       "talla": "42",
@@ -51,34 +12,73 @@
       "mi_precio": 80.0,
       "coste": 35.0,
       "mercado": {
-        "anuncios": 89,
+        "anuncios": 78,
         "vistos": 96,
-        "min": 15.0,
-        "mediana": 50.0,
-        "max": 290.0,
-        "p25": 45.0,
-        "likes_mediana": 11,
-        "likes_max": 159
+        "min": 7.0,
+        "mediana": 71.0,
+        "max": 300.0,
+        "p25": 40.0,
+        "likes_mediana": 6.0,
+        "likes_max": 204
       },
       "veredicto": "caro",
       "ejemplos": [
         {
-          "titulo": "Asics Gel Kayano 14",
-          "precio": 115.0,
-          "likes": 159,
-          "url": "https://www.vinted.es/items/10129381622-asics-gel-kayano-14"
+          "titulo": "Asics FB1-S gel-preleus by Kiko Kostadinov ",
+          "precio": 120.0,
+          "likes": 204,
+          "url": "https://www.vinted.es/items/2397557559-asics-fb1-s-gel-preleus-by-kiko-kostadinov"
         },
         {
-          "titulo": "Asics gel cumulus 16 driftwood/butter - taille 40",
-          "precio": 200.0,
-          "likes": 133,
-          "url": "https://www.vinted.es/items/10544731378-asics-gel-cumulus-16-driftwoodbutter-taille-40"
+          "titulo": "Kiko Kostadinov x Asics Novalis Gel-Styrax Graphite Grey and",
+          "precio": 125.0,
+          "likes": 111,
+          "url": "https://www.vinted.es/items/9844206180-kiko-kostadinov-x-asics-novalis-gel-styrax-graphite-grey-and-blue-mule-sneakers"
         },
         {
-          "titulo": "Zapatillas ASICS Gel-Kayano 14 x Kith \"Cream / Scarab\" (Tall",
-          "precio": 60.0,
-          "likes": 107,
-          "url": "https://www.vinted.es/items/10871344062-zapatillas-asics-gel-kayano-14-x-kith-cream-scarab-talla-415-eu"
+          "titulo": "Asics x Freja Wewer Gel-1090 V2 Clay Grey Pure Silver",
+          "precio": 300.0,
+          "likes": 54,
+          "url": "https://www.vinted.es/items/5780472558-asics-x-freja-wewer-gel-1090-v2-clay-grey-pure-silver"
+        }
+      ]
+    },
+    {
+      "nombre": "Nike Tech Nocta",
+      "talla": "M",
+      "imagen": "data:image/jpeg;base64,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",
+      "unidades": 1,
+      "mi_precio": 50.0,
+      "coste": 20.0,
+      "mercado": {
+        "anuncios": 93,
+        "vistos": 96,
+        "min": 3.0,
+        "mediana": 28.99,
+        "max": 100.0,
+        "p25": 17.0,
+        "likes_mediana": 12,
+        "likes_max": 66
+      },
+      "veredicto": "caro",
+      "ejemplos": [
+        {
+          "titulo": "Nike tech RF Roger Federer – Tech Jacket – Violet – Taille S",
+          "precio": 75.0,
+          "likes": 66,
+          "url": "https://www.vinted.es/items/10840770141-nike-tech-rf-roger-federer-tech-jacket-violet-taille-s"
+        },
+        {
+          "titulo": "Pull à capuche Nike tech noir Taille M",
+          "precio": 85.0,
+          "likes": 55,
+          "url": "https://www.vinted.es/items/10863407360-pull-a-capuche-nike-tech-noir-taille-m"
+        },
+        {
+          "titulo": "Pantalon negro Nike Tech - Black Nike Tech",
+          "precio": 32.0,
+          "likes": 53,
+          "url": "https://www.vinted.es/items/10906363559-pantalon-negro-nike-tech-black-nike-tech"
         }
       ]
     },
@@ -90,21 +90,21 @@
       "mi_precio": 10.0,
       "coste": 2.5,
       "mercado": {
-        "anuncios": 79,
+        "anuncios": 80,
         "vistos": 96,
         "min": 1.0,
         "mediana": 3.0,
         "max": 100.0,
         "p25": 1.5,
-        "likes_mediana": 2,
-        "likes_max": 31
+        "likes_mediana": 2.0,
+        "likes_max": 32
       },
       "veredicto": "caro",
       "ejemplos": [
         {
           "titulo": "Tarjetas NFC de Google",
           "precio": 3.5,
-          "likes": 31,
+          "likes": 32,
           "url": "https://www.vinted.es/items/10897303205-tarjetas-nfc-de-google"
         },
         {
@@ -114,10 +114,10 @@
           "url": "https://www.vinted.es/items/10868259426-tarjetas-nfc"
         },
         {
-          "titulo": "Tarjetas NFC Google",
+          "titulo": "Tarjetas NFC configurables",
           "precio": 1.0,
-          "likes": 19,
-          "url": "https://www.vinted.es/items/10877426987-tarjetas-nfc-google"
+          "likes": 27,
+          "url": "https://www.vinted.es/items/10701386227-tarjetas-nfc-configurables"
         }
       ]
     },
@@ -133,30 +133,30 @@
         "vistos": 96,
         "min": 10.0,
         "mediana": 35.0,
-        "max": 65.0,
-        "p25": 29.0,
-        "likes_mediana": 14.0,
-        "likes_max": 114
+        "max": 79.99,
+        "p25": 25.0,
+        "likes_mediana": 15.5,
+        "likes_max": 187
       },
       "veredicto": "caro",
       "ejemplos": [
         {
+          "titulo": "2000s boxy sweatshirt stussy logo made in USA taille S",
+          "precio": 34.0,
+          "likes": 187,
+          "url": "https://www.vinted.es/items/10370355341-2000s-boxy-sweatshirt-stussy-logo-made-in-usa-taille-s"
+        },
+        {
           "titulo": "Pull stüssy / bonne état",
           "precio": 12.0,
-          "likes": 114,
+          "likes": 119,
           "url": "https://www.vinted.es/items/10727575647-pull-stussy-bonne-etat"
         },
         {
-          "titulo": "Sweat-shirt Nike X stussy",
-          "precio": 21.0,
-          "likes": 51,
-          "url": "https://www.vinted.es/items/10909495017-sweat-shirt-nike-x-stussy"
-        },
-        {
           "titulo": "Pull stussy",
-          "precio": 40.0,
-          "likes": 51,
-          "url": "https://www.vinted.es/items/10560856061-pull-stussy"
+          "precio": 25.0,
+          "likes": 96,
+          "url": "https://www.vinted.es/items/10680350810-pull-stussy"
         }
       ]
     },
@@ -170,32 +170,32 @@
       "mercado": {
         "anuncios": 96,
         "vistos": 96,
-        "min": 10.0,
+        "min": 12.0,
         "mediana": 35.0,
         "max": 65.0,
         "p25": 29.0,
-        "likes_mediana": 14.0,
-        "likes_max": 114
+        "likes_mediana": 12.0,
+        "likes_max": 119
       },
       "veredicto": "caro",
       "ejemplos": [
         {
           "titulo": "Pull stüssy / bonne état",
           "precio": 12.0,
-          "likes": 114,
+          "likes": 119,
           "url": "https://www.vinted.es/items/10727575647-pull-stussy-bonne-etat"
-        },
-        {
-          "titulo": "Sweat-shirt Nike X stussy",
-          "precio": 21.0,
-          "likes": 51,
-          "url": "https://www.vinted.es/items/10909495017-sweat-shirt-nike-x-stussy"
         },
         {
           "titulo": "Pull stussy",
           "precio": 40.0,
           "likes": 51,
           "url": "https://www.vinted.es/items/10560856061-pull-stussy"
+        },
+        {
+          "titulo": "Pull Nike X Stussy",
+          "precio": 30.0,
+          "likes": 50,
+          "url": "https://www.vinted.es/items/9741684034-pull-nike-x-stussy"
         }
       ]
     },
@@ -207,34 +207,34 @@
       "mi_precio": 85.0,
       "coste": 35.0,
       "mercado": {
-        "anuncios": 73,
+        "anuncios": 87,
         "vistos": 96,
-        "min": 30.0,
-        "mediana": 45.0,
-        "max": 230.0,
-        "p25": 45.0,
-        "likes_mediana": 3,
-        "likes_max": 159
+        "min": 15.0,
+        "mediana": 50.0,
+        "max": 290.0,
+        "p25": 42.0,
+        "likes_mediana": 8,
+        "likes_max": 161
       },
       "veredicto": "caro",
       "ejemplos": [
         {
           "titulo": "Asics Gel Kayano 14",
           "precio": 115.0,
-          "likes": 159,
+          "likes": 161,
           "url": "https://www.vinted.es/items/10129381622-asics-gel-kayano-14"
+        },
+        {
+          "titulo": "Asics gel cumulus 16 driftwood/butter - taille 40",
+          "precio": 200.0,
+          "likes": 145,
+          "url": "https://www.vinted.es/items/10544731378-asics-gel-cumulus-16-driftwoodbutter-taille-40"
         },
         {
           "titulo": "Asics gel nimbus 9",
           "precio": 30.0,
-          "likes": 72,
+          "likes": 136,
           "url": "https://www.vinted.es/items/10907660523-asics-gel-nimbus-9"
-        },
-        {
-          "titulo": "Asics Kayano 14 Blue Midnight",
-          "precio": 50.0,
-          "likes": 57,
-          "url": "https://www.vinted.es/items/10884087988-asics-kayano-14-blue-midnight"
         }
       ]
     },
@@ -246,34 +246,73 @@
       "mi_precio": 50.0,
       "coste": 18.5,
       "mercado": {
-        "anuncios": 91,
+        "anuncios": 87,
         "vistos": 96,
-        "min": 15.0,
-        "mediana": 50.0,
-        "max": 98.95,
-        "p25": 35.0,
-        "likes_mediana": 5,
-        "likes_max": 75
+        "min": 10.0,
+        "mediana": 49.95,
+        "max": 115.0,
+        "p25": 30.0,
+        "likes_mediana": 3,
+        "likes_max": 85
       },
       "veredicto": "de mercado",
       "ejemplos": [
         {
-          "titulo": "Chaqueta The North Face",
-          "precio": 85.0,
-          "likes": 75,
-          "url": "https://www.vinted.es/items/10903591795-chaqueta-the-north-face"
-        },
-        {
-          "titulo": "Chaqueta desmontable The North Face niño",
-          "precio": 25.0,
-          "likes": 65,
-          "url": "https://www.vinted.es/items/10906071372-chaqueta-desmontable-the-north-face-nino"
-        },
-        {
-          "titulo": "The North Face Cortavientos Negro Talla L | Chaqueta TNF",
+          "titulo": "Chaqueta cortavientos the north face",
           "precio": 35.0,
-          "likes": 58,
-          "url": "https://www.vinted.es/items/10907173351-the-north-face-cortavientos-negro-talla-l-chaqueta-tnf"
+          "likes": 85,
+          "url": "https://www.vinted.es/items/10895744732-chaqueta-cortavientos-the-north-face"
+        },
+        {
+          "titulo": "🎄 The North Face Puffer 🎁 Jacket 700 Noire – Hiver Chaud, Ta",
+          "precio": 50.0,
+          "likes": 51,
+          "url": "https://www.vinted.es/items/10913033542-the-north-face-puffer-jacket-700-noire-hiver-chaud-taille-l"
+        },
+        {
+          "titulo": "Piumini North Face 700",
+          "precio": 90.0,
+          "likes": 45,
+          "url": "https://www.vinted.es/items/10628280975-piumini-north-face-700"
+        }
+      ]
+    },
+    {
+      "nombre": "Asics  Kayano 14 Negras",
+      "talla": "41,5",
+      "imagen": "data:image/jpeg;base64,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",
+      "unidades": 1,
+      "mi_precio": 80.0,
+      "coste": 0.0,
+      "mercado": {
+        "anuncios": 90,
+        "vistos": 96,
+        "min": 29.0,
+        "mediana": 83.0,
+        "max": 220.0,
+        "p25": 60.0,
+        "likes_mediana": 11.0,
+        "likes_max": 82
+      },
+      "veredicto": "de mercado",
+      "ejemplos": [
+        {
+          "titulo": "Zapatillas asics gel-kayano 14 - black/pure silver - talla 4",
+          "precio": 90.0,
+          "likes": 82,
+          "url": "https://www.vinted.es/items/8500814243-zapatillas-asics-gel-kayano-14-blackpure-silver-talla-43-estilo-retro-running"
+        },
+        {
+          "titulo": "Asics kayano 14 midnight",
+          "precio": 170.0,
+          "likes": 78,
+          "url": "https://www.vinted.es/items/9824077704-asics-kayano-14-midnight"
+        },
+        {
+          "titulo": "Asics Kayano",
+          "precio": 139.99,
+          "likes": 68,
+          "url": "https://www.vinted.es/items/10703359598-asics-kayano"
         }
       ]
     },
@@ -285,23 +324,17 @@
       "mi_precio": 80.0,
       "coste": 35.0,
       "mercado": {
-        "anuncios": 87,
+        "anuncios": 90,
         "vistos": 96,
-        "min": 25.0,
-        "mediana": 75.0,
+        "min": 29.0,
+        "mediana": 83.0,
         "max": 220.0,
         "p25": 60.0,
-        "likes_mediana": 9,
-        "likes_max": 140
+        "likes_mediana": 11.0,
+        "likes_max": 82
       },
       "veredicto": "de mercado",
       "ejemplos": [
-        {
-          "titulo": "Asics Kayano 14 Negras",
-          "precio": 60.0,
-          "likes": 140,
-          "url": "https://www.vinted.es/items/6955976499-asics-kayano-14-negras"
-        },
         {
           "titulo": "Zapatillas asics gel-kayano 14 - black/pure silver - talla 4",
           "precio": 90.0,
@@ -309,10 +342,55 @@
           "url": "https://www.vinted.es/items/8500814243-zapatillas-asics-gel-kayano-14-blackpure-silver-talla-43-estilo-retro-running"
         },
         {
+          "titulo": "Asics kayano 14 midnight",
+          "precio": 170.0,
+          "likes": 78,
+          "url": "https://www.vinted.es/items/9824077704-asics-kayano-14-midnight"
+        },
+        {
           "titulo": "Asics Kayano",
           "precio": 139.99,
-          "likes": 67,
+          "likes": 68,
           "url": "https://www.vinted.es/items/10703359598-asics-kayano"
+        }
+      ]
+    },
+    {
+      "nombre": "Asics Gel Nyc Cream",
+      "talla": "43",
+      "imagen": "https://i8.amplience.net/i/jpl/jd_729151_a?qlt=92",
+      "unidades": 1,
+      "mi_precio": 60.0,
+      "coste": 0.0,
+      "mercado": {
+        "anuncios": 93,
+        "vistos": 96,
+        "min": 30.0,
+        "mediana": 120.0,
+        "max": 230.0,
+        "p25": 110.0,
+        "likes_mediana": 9,
+        "likes_max": 102
+      },
+      "veredicto": "barato",
+      "ejemplos": [
+        {
+          "titulo": "Nieuwe ASICS Gel-NYC \"Pure Cream\"",
+          "precio": 120.0,
+          "likes": 102,
+          "url": "https://www.vinted.es/items/9583332522-nieuwe-asics-gel-nyc-pure-cream"
+        },
+        {
+          "titulo": "Asics Gel-Nyc",
+          "precio": 65.0,
+          "likes": 101,
+          "url": "https://www.vinted.es/items/10891282142-asics-gel-nyc"
+        },
+        {
+          "titulo": "Asics Gel-1130 Trainers - size 37 EU",
+          "precio": 30.0,
+          "likes": 97,
+          "url": "https://www.vinted.es/items/10804137217-asics-gel-1130-trainers-size-37-eu"
         }
       ]
     },
@@ -324,13 +402,13 @@
       "mi_precio": 90.0,
       "coste": 25.0,
       "mercado": {
-        "anuncios": 12,
-        "vistos": 16,
+        "anuncios": 13,
+        "vistos": 17,
         "min": 50.0,
-        "mediana": 108.5,
+        "mediana": 95.0,
         "max": 135.0,
         "p25": 80.0,
-        "likes_mediana": 17.5,
+        "likes_mediana": 16,
         "likes_max": 216
       },
       "veredicto": "barato",
@@ -363,13 +441,13 @@
       "mi_precio": 55.0,
       "coste": 20.0,
       "mercado": {
-        "anuncios": 85,
+        "anuncios": 84,
         "vistos": 96,
-        "min": 35.0,
-        "mediana": 115.0,
+        "min": 40.0,
+        "mediana": 110.0,
         "max": 210.0,
         "p25": 90.0,
-        "likes_mediana": 20,
+        "likes_mediana": 22.0,
         "likes_max": 207
       },
       "veredicto": "barato",
@@ -383,53 +461,14 @@
         {
           "titulo": "UGG Tasman Hybrid",
           "precio": 150.0,
-          "likes": 133,
+          "likes": 131,
           "url": "https://www.vinted.es/items/10055847403-ugg-tasman-hybrid"
         },
         {
-          "titulo": "Ugg tasman",
-          "precio": 40.0,
-          "likes": 130,
-          "url": "https://www.vinted.es/items/10869599545-ugg-tasman"
-        }
-      ]
-    },
-    {
-      "nombre": "Nike Tech Nocta",
-      "talla": "M",
-      "imagen": "data:image/jpeg;base64,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",
-      "unidades": 1,
-      "mi_precio": 50.0,
-      "coste": 20.0,
-      "mercado": {
-        "anuncios": 87,
-        "vistos": 96,
-        "min": 12.0,
-        "mediana": 110.0,
-        "max": 280.0,
-        "p25": 55.0,
-        "likes_mediana": 21,
-        "likes_max": 163
-      },
-      "veredicto": "barato",
-      "ejemplos": [
-        {
-          "titulo": "Nike x Nocta NRG Tech Fleece",
+          "titulo": "UGG Tasman nuove",
           "precio": 110.0,
-          "likes": 163,
-          "url": "https://www.vinted.es/items/8382602089-nike-x-nocta-nrg-tech-fleece"
-        },
-        {
-          "titulo": "Nike NOCTA trainingspak",
-          "precio": 110.0,
-          "likes": 155,
-          "url": "https://www.vinted.es/items/10682320453-nike-nocta-trainingspak"
-        },
-        {
-          "titulo": "Nike tech Nocta",
-          "precio": 110.0,
-          "likes": 148,
-          "url": "https://www.vinted.es/items/7484578482-nike-tech-nocta"
+          "likes": 127,
+          "url": "https://www.vinted.es/items/3921114340-ugg-tasman-nuove"
         }
       ]
     },
@@ -441,13 +480,13 @@
       "mi_precio": 50.0,
       "coste": 20.0,
       "mercado": {
-        "anuncios": 87,
+        "anuncios": 86,
         "vistos": 96,
         "min": 12.0,
         "mediana": 110.0,
         "max": 280.0,
         "p25": 55.0,
-        "likes_mediana": 21,
+        "likes_mediana": 20.0,
         "likes_max": 163
       },
       "veredicto": "barato",
@@ -461,13 +500,13 @@
         {
           "titulo": "Nike NOCTA trainingspak",
           "precio": 110.0,
-          "likes": 155,
+          "likes": 160,
           "url": "https://www.vinted.es/items/10682320453-nike-nocta-trainingspak"
         },
         {
           "titulo": "Nike tech Nocta",
           "precio": 110.0,
-          "likes": 148,
+          "likes": 149,
           "url": "https://www.vinted.es/items/7484578482-nike-tech-nocta"
         }
       ]
@@ -481,22 +520,16 @@
       "coste": 20.0,
       "mercado": {
         "anuncios": 2,
-        "vistos": 21,
-        "min": 65.0,
+        "vistos": 19,
+        "min": 25.0,
         "mediana": 210.0,
         "max": 300.0,
         "p25": 140.0,
-        "likes_mediana": 5,
-        "likes_max": 42
+        "likes_mediana": 4,
+        "likes_max": 25
       },
       "veredicto": "barato",
       "ejemplos": [
-        {
-          "titulo": "Cinturón Montblanc color negro y plateado",
-          "precio": 65.0,
-          "likes": 42,
-          "url": "https://www.vinted.es/items/10910200822-cinturon-montblanc-color-negro-y-plateado"
-        },
         {
           "titulo": "Ceinture Montblanc Cuir Noir",
           "precio": 140.0,
@@ -508,6 +541,12 @@
           "precio": 270.0,
           "likes": 22,
           "url": "https://www.vinted.es/items/3017121079-cintura-montblanc-double-face-neramarrone"
+        },
+        {
+          "titulo": "Montblanc cintura in pelle saffiano reversibile",
+          "precio": 250.0,
+          "likes": 15,
+          "url": "https://www.vinted.es/items/4972171765-montblanc-cintura-in-pelle-saffiano-reversibile"
         }
       ]
     },
@@ -520,22 +559,16 @@
       "coste": 20.0,
       "mercado": {
         "anuncios": 2,
-        "vistos": 21,
-        "min": 65.0,
+        "vistos": 19,
+        "min": 25.0,
         "mediana": 210.0,
         "max": 300.0,
         "p25": 140.0,
-        "likes_mediana": 5,
-        "likes_max": 42
+        "likes_mediana": 4,
+        "likes_max": 25
       },
       "veredicto": "barato",
       "ejemplos": [
-        {
-          "titulo": "Cinturón Montblanc color negro y plateado",
-          "precio": 65.0,
-          "likes": 42,
-          "url": "https://www.vinted.es/items/10910200822-cinturon-montblanc-color-negro-y-plateado"
-        },
         {
           "titulo": "Ceinture Montblanc Cuir Noir",
           "precio": 140.0,
@@ -547,6 +580,12 @@
           "precio": 270.0,
           "likes": 22,
           "url": "https://www.vinted.es/items/3017121079-cintura-montblanc-double-face-neramarrone"
+        },
+        {
+          "titulo": "Montblanc cintura in pelle saffiano reversibile",
+          "precio": 250.0,
+          "likes": 15,
+          "url": "https://www.vinted.es/items/4972171765-montblanc-cintura-in-pelle-saffiano-reversibile"
         }
       ]
     },
@@ -558,13 +597,13 @@
       "mi_precio": 25.0,
       "coste": 30.0,
       "mercado": {
-        "anuncios": 10,
+        "anuncios": 8,
         "vistos": 96,
         "min": 4.0,
-        "mediana": 31.5,
-        "max": 84.95,
+        "mediana": 27.5,
+        "max": 55.0,
         "p25": 25.0,
-        "likes_mediana": 17.0,
+        "likes_mediana": 25.5,
         "likes_max": 113
       },
       "veredicto": "barato",
@@ -578,13 +617,13 @@
         {
           "titulo": "Nike TN Negras",
           "precio": 55.0,
-          "likes": 58,
+          "likes": 61,
           "url": "https://www.vinted.es/items/10842738253-nike-tn-negras"
         },
         {
           "titulo": "Nike tn negras",
           "precio": 30.0,
-          "likes": 31,
+          "likes": 33,
           "url": "https://www.vinted.es/items/10891946222-nike-tn-negras"
         }
       ]
@@ -597,13 +636,13 @@
       "mi_precio": 20.0,
       "coste": 10.0,
       "mercado": {
-        "anuncios": 76,
+        "anuncios": 78,
         "vistos": 96,
         "min": 13.0,
-        "mediana": 86.0,
+        "mediana": 91.0,
         "max": 205.0,
-        "p25": 44.99,
-        "likes_mediana": 10.0,
+        "p25": 45.0,
+        "likes_mediana": 8.5,
         "likes_max": 376
       },
       "veredicto": "barato",
@@ -617,14 +656,14 @@
         {
           "titulo": "Basket Alo Yoga taille 36",
           "precio": 205.0,
-          "likes": 192,
+          "likes": 193,
           "url": "https://www.vinted.es/items/9997801659-basket-alo-yoga-taille-36"
         },
         {
-          "titulo": "Conjunto Alo Yoga",
-          "precio": 85.99,
-          "likes": 77,
-          "url": "https://www.vinted.es/items/10597083725-conjunto-alo-yoga"
+          "titulo": "Alo yoga Socks",
+          "precio": 27.8,
+          "likes": 70,
+          "url": "https://www.vinted.es/items/10844169520-alo-yoga-socks"
         }
       ]
     },
@@ -638,11 +677,11 @@
       "mercado": {
         "anuncios": 73,
         "vistos": 96,
-        "min": 18.0,
+        "min": 15.0,
         "mediana": 110.0,
-        "max": 250.0,
+        "max": 229.99,
         "p25": 60.0,
-        "likes_mediana": 22,
+        "likes_mediana": 19,
         "likes_max": 162
       },
       "veredicto": "barato",
@@ -656,13 +695,13 @@
         {
           "titulo": "Bonnet Alo Yoga Noir",
           "precio": 25.0,
-          "likes": 111,
+          "likes": 117,
           "url": "https://www.vinted.es/items/10855944432-bonnet-alo-yoga-noir"
         },
         {
           "titulo": "Jogging Accolade Coupe Droite Alo Yoga",
           "precio": 35.0,
-          "likes": 95,
+          "likes": 106,
           "url": "https://www.vinted.es/items/10906000365-jogging-accolade-coupe-droite-alo-yoga"
         }
       ]
@@ -675,34 +714,34 @@
       "mi_precio": 50.0,
       "coste": 18.33,
       "mercado": {
-        "anuncios": 85,
+        "anuncios": 82,
         "vistos": 96,
-        "min": 16.0,
-        "mediana": 110.0,
+        "min": 15.0,
+        "mediana": 112.5,
         "max": 260.0,
-        "p25": 45.0,
-        "likes_mediana": 12,
-        "likes_max": 66
+        "p25": 49.0,
+        "likes_mediana": 10.0,
+        "likes_max": 81
       },
       "veredicto": "barato",
       "ejemplos": [
         {
+          "titulo": "Chaqueta north face",
+          "precio": 45.0,
+          "likes": 81,
+          "url": "https://www.vinted.es/items/10918759383-chaqueta-north-face"
+        },
+        {
+          "titulo": "Doudoune the North face",
+          "precio": 185.0,
+          "likes": 74,
+          "url": "https://www.vinted.es/items/5375864450-doudoune-the-north-face"
+        },
+        {
           "titulo": "The North Face Saikuru Jacket Women’s Puffer Beige White Dun",
           "precio": 108.5,
-          "likes": 66,
+          "likes": 72,
           "url": "https://www.vinted.es/items/10808601702-the-north-face-saikuru-jacket-womens-puffer-beige-white-dune-windproof-size-l-street"
-        },
-        {
-          "titulo": "Veste the north face",
-          "precio": 60.0,
-          "likes": 65,
-          "url": "https://www.vinted.es/items/8492571370-veste-the-north-face"
-        },
-        {
-          "titulo": "Chaqueta North Face",
-          "precio": 30.0,
-          "likes": 57,
-          "url": "https://www.vinted.es/items/10058282367-chaqueta-north-face"
         }
       ]
     },
@@ -714,28 +753,28 @@
       "mi_precio": 25.0,
       "coste": 0.0,
       "mercado": {
-        "anuncios": 88,
+        "anuncios": 87,
         "vistos": 96,
         "min": 15.5,
         "mediana": 120.0,
         "max": 250.0,
         "p25": 68.0,
-        "likes_mediana": 7.5,
-        "likes_max": 65
+        "likes_mediana": 7,
+        "likes_max": 68
       },
       "veredicto": "barato",
       "ejemplos": [
         {
           "titulo": "Chaqueta Forro Polar The North Face Osito - Talla M Mujer - ",
           "precio": 28.0,
-          "likes": 65,
+          "likes": 68,
           "url": "https://www.vinted.es/items/10085698141-chaqueta-forro-polar-the-north-face-osito-talla-m-mujer-negro"
         },
         {
-          "titulo": "The North Face 700 Puffer Bomber Jacket Track Coat Premium I",
-          "precio": 69.0,
-          "likes": 52,
-          "url": "https://www.vinted.es/items/10756259559-the-north-face-700-puffer-bomber-jacket-track-coat-premium-impermeable-parachute-vintage-90s"
+          "titulo": "The North Face HyVent Black Windbreaker Jacket - Size L - Ra",
+          "precio": 29.9,
+          "likes": 44,
+          "url": "https://www.vinted.es/items/10879315990-the-north-face-hyvent-black-windbreaker-jacket-size-l-raincoat-shell-coat"
         },
         {
           "titulo": "Chaqueta North face",
@@ -755,19 +794,19 @@
       "mercado": {
         "anuncios": 60,
         "vistos": 96,
-        "min": 35.0,
+        "min": 40.0,
         "mediana": 110.0,
         "max": 180.0,
-        "p25": 65.0,
-        "likes_mediana": 28.5,
-        "likes_max": 153
+        "p25": 68.5,
+        "likes_mediana": 27.5,
+        "likes_max": 154
       },
       "veredicto": "barato",
       "ejemplos": [
         {
           "titulo": "Zapatillas samba con lentejuelas de adidas talla 38",
           "precio": 84.5,
-          "likes": 153,
+          "likes": 154,
           "url": "https://www.vinted.es/items/10628593950-zapatillas-samba-con-lentejuelas-de-adidas-talla-38"
         },
         {
@@ -777,10 +816,10 @@
           "url": "https://www.vinted.es/items/6130884982-adidas-samba-metallic"
         },
         {
-          "titulo": "Adidas samba",
-          "precio": 35.0,
-          "likes": 118,
-          "url": "https://www.vinted.es/items/10860107331-adidas-samba"
+          "titulo": "Adidas Originals Samba OG argent silver taille 39 1/2",
+          "precio": 70.0,
+          "likes": 130,
+          "url": "https://www.vinted.es/items/10838940394-adidas-originals-samba-og-argent-silver-taille-39-12"
         }
       ]
     },
@@ -794,19 +833,19 @@
       "mercado": {
         "anuncios": 60,
         "vistos": 96,
-        "min": 35.0,
+        "min": 40.0,
         "mediana": 110.0,
         "max": 180.0,
-        "p25": 65.0,
-        "likes_mediana": 28.5,
-        "likes_max": 153
+        "p25": 68.5,
+        "likes_mediana": 27.5,
+        "likes_max": 154
       },
       "veredicto": "barato",
       "ejemplos": [
         {
           "titulo": "Zapatillas samba con lentejuelas de adidas talla 38",
           "precio": 84.5,
-          "likes": 153,
+          "likes": 154,
           "url": "https://www.vinted.es/items/10628593950-zapatillas-samba-con-lentejuelas-de-adidas-talla-38"
         },
         {
@@ -816,49 +855,10 @@
           "url": "https://www.vinted.es/items/6130884982-adidas-samba-metallic"
         },
         {
-          "titulo": "Adidas samba",
-          "precio": 35.0,
-          "likes": 118,
-          "url": "https://www.vinted.es/items/10860107331-adidas-samba"
-        }
-      ]
-    },
-    {
-      "nombre": "Asics  Kayano 14 Negras",
-      "talla": "41,5",
-      "imagen": "data:image/jpeg;base64,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",
-      "unidades": 1,
-      "mi_precio": 80.0,
-      "coste": 0.0,
-      "mercado": {
-        "anuncios": 85,
-        "vistos": 96,
-        "min": 19.0,
-        "mediana": 85.0,
-        "max": 230.0,
-        "p25": 57.0,
-        "likes_mediana": 13,
-        "likes_max": 170
-      },
-      "veredicto": "barato",
-      "ejemplos": [
-        {
-          "titulo": "ASICS Kayano",
-          "precio": 50.0,
-          "likes": 170,
-          "url": "https://www.vinted.es/items/10857892729-asics-kayano"
-        },
-        {
-          "titulo": "Asics Gel Kayano 14",
-          "precio": 115.0,
-          "likes": 159,
-          "url": "https://www.vinted.es/items/10129381622-asics-gel-kayano-14"
-        },
-        {
-          "titulo": "Asics Kayano 38",
-          "precio": 65.0,
-          "likes": 123,
-          "url": "https://www.vinted.es/items/10899599725-asics-kayano-38"
+          "titulo": "Adidas Originals Samba OG argent silver taille 39 1/2",
+          "precio": 70.0,
+          "likes": 130,
+          "url": "https://www.vinted.es/items/10838940394-adidas-originals-samba-og-argent-silver-taille-39-12"
         }
       ]
     },
@@ -906,75 +906,75 @@
   "top_compras": [
     {
       "nombre": "TN Negras",
-      "score": 9.0,
-      "demanda": 17.0,
-      "competencia": 10,
-      "precio_venta_sugerido": 31.5,
-      "precio_compra_max": 17.33,
-      "motivo": "17 ❤ de media · 10 anuncios parecidos"
+      "score": 14.72,
+      "demanda": 25.5,
+      "competencia": 8,
+      "precio_venta_sugerido": 27.5,
+      "precio_compra_max": 15.13,
+      "motivo": "25 ❤ de media · 8 anuncios parecidos"
     },
     {
       "nombre": "Asics Gel Cumulus 16’ Burgundy",
-      "score": 8.41,
-      "demanda": 17.5,
-      "competencia": 12,
-      "precio_venta_sugerido": 108.5,
-      "precio_compra_max": 59.68,
-      "motivo": "17 ❤ de media · 12 anuncios parecidos"
+      "score": 7.39,
+      "demanda": 16,
+      "competencia": 13,
+      "precio_venta_sugerido": 95.0,
+      "precio_compra_max": 52.25,
+      "motivo": "16 ❤ de media · 13 anuncios parecidos"
     },
     {
       "nombre": "Cinturon Mont Blanc 120cm",
-      "score": 5.0,
-      "demanda": 5,
+      "score": 4.17,
+      "demanda": 4,
       "competencia": 2,
       "precio_venta_sugerido": 210.0,
       "precio_compra_max": 115.5,
-      "motivo": "5 ❤ de media · 2 anuncios parecidos"
+      "motivo": "4 ❤ de media · 2 anuncios parecidos"
     },
     {
       "nombre": "Adidas Samba Plateadas",
-      "score": 4.21,
-      "demanda": 28.5,
+      "score": 4.07,
+      "demanda": 27.5,
       "competencia": 60,
       "precio_venta_sugerido": 110.0,
       "precio_compra_max": 60.5,
-      "motivo": "28 ❤ de media · 60 anuncios parecidos"
-    },
-    {
-      "nombre": "Alo Yoga Negra",
-      "score": 2.77,
-      "demanda": 22,
-      "competencia": 73,
-      "precio_venta_sugerido": 110.0,
-      "precio_compra_max": 60.5,
-      "motivo": "22 ❤ de media · 73 anuncios parecidos"
-    },
-    {
-      "nombre": "Nike Tech Nocta",
-      "score": 2.27,
-      "demanda": 21,
-      "competencia": 87,
-      "precio_venta_sugerido": 110.0,
-      "precio_compra_max": 60.5,
-      "motivo": "21 ❤ de media · 87 anuncios parecidos"
+      "motivo": "27 ❤ de media · 60 anuncios parecidos"
     },
     {
       "nombre": "UGG Tasman Beige",
-      "score": 2.21,
-      "demanda": 20,
-      "competencia": 85,
-      "precio_venta_sugerido": 115.0,
-      "precio_compra_max": 63.25,
-      "motivo": "20 ❤ de media · 85 anuncios parecidos"
+      "score": 2.45,
+      "demanda": 22.0,
+      "competencia": 84,
+      "precio_venta_sugerido": 110.0,
+      "precio_compra_max": 60.5,
+      "motivo": "22 ❤ de media · 84 anuncios parecidos"
     },
     {
-      "nombre": "Asics  Kayano 14 Negras",
-      "score": 1.47,
-      "demanda": 13,
-      "competencia": 85,
-      "precio_venta_sugerido": 85.0,
-      "precio_compra_max": 46.75,
-      "motivo": "13 ❤ de media · 85 anuncios parecidos"
+      "nombre": "Alo Yoga Negra",
+      "score": 2.41,
+      "demanda": 19,
+      "competencia": 73,
+      "precio_venta_sugerido": 110.0,
+      "precio_compra_max": 60.5,
+      "motivo": "19 ❤ de media · 73 anuncios parecidos"
+    },
+    {
+      "nombre": "Nike Tech Nocta",
+      "score": 2.19,
+      "demanda": 20.0,
+      "competencia": 86,
+      "precio_venta_sugerido": 110.0,
+      "precio_compra_max": 60.5,
+      "motivo": "20 ❤ de media · 86 anuncios parecidos"
+    },
+    {
+      "nombre": "Jersey Stusy Negro",
+      "score": 1.56,
+      "demanda": 15.5,
+      "competencia": 96,
+      "precio_venta_sugerido": 35.0,
+      "precio_compra_max": 19.25,
+      "motivo": "15 ❤ de media · 96 anuncios parecidos"
     }
   ]
 }
